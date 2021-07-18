@@ -1,2 +1,2 @@
-# Evento-Adverso-com-Metamap-e-Twitter-com-Portugues-Brasil
- Detecção de Evento Adverso utilizadondo a ferramenta Metamap extraindo mensagens do Twitter na língua portuguesa do Brasil.
+# Detecção de Eventos Adversos utilizado Metamap e Twitter com Portugues do Brasil
+ Detecção de Eventos Adversos utilizando a ferramenta Metamap para extrair conceitos médicos de mensagens do Twitter na língua portuguesa do Brasil com auxílio de PNL (Processo de Linguagem Natural).
