@@ -1,0 +1,1360 @@
+ter 20 jul 2021 16:07:38 -03
+$Starting skrmedpostctl: 
+started.
+Perci, Enter workspace name (DataVersionName)[default is Custom]:
+Workspace will be placed in /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES, is this okay? [yes]:
+
+MetaMap Data Sets:
+Use which Data Set directory? [default: 0) ]
+ has been selected.
+
+base directory DB/DB...base for  is missing.
+
+MetaMap Lexicons:
+1) /home/lperciliano/Metamap-2021/public_mm/lexicon/data/lexiconStatic2020
+Use which Lexicon file? [default: 1) /home/lperciliano/Metamap-2021/public_mm/lexicon/data/lexiconStatic2020]
+/home/lperciliano/Metamap-2021/public_mm/lexicon/data/lexiconStatic2020 has been selected.
+DFB Resources:
+1) /home/lperciliano/Metamap-2021/public_mm/data/dfbuilder/2021
+
+Use which dfbuilder resource directory? [default: 1) /home/lperciliano/Metamap-2021/public_mm/data/dfbuilder/2021]
+/home/lperciliano/Metamap-2021/public_mm/data/dfbuilder/2021 has been selected.
+
+Enter Knowledge Source year (<4 digit year>)[default is ]:
+Enter Knowledge Source Release (<2 letters> (usually: AA or AB)[default is ]:
+ 
+  This script builds the workspace and 
+  creates links to some of your source files.
+ 
+     Creating /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/01metawordindex/...
+     Preparing workspace...
+done.
+ 
+ To begin creating data files: 
+     Go to /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/01metawordindex
+ Perci -->    Start the first script: 01CreateWorkFiles
+ 
+total 100
+33558683 drwxrwxr-x 5 lperciliano lperciliano 4096 jul 20 16:14 .
+33559882 drwxrwxr-x 8 lperciliano lperciliano 4096 jul 20 16:14 ..
+33558693 -rwxr-xr-x 1 lperciliano lperciliano 4443 jul 20 16:14 01CreateWorkFiles
+33558694 -rwxr-xr-x 1 lperciliano lperciliano 1414 jul 20 16:14 02Suppress
+33558695 -rwxr-xr-x 1 lperciliano lperciliano 3010 jul 20 16:14 03FilterPrep
+33558696 -rwxr-xr-x 1 lperciliano lperciliano 3396 jul 20 16:14 04FilterRelaxed
+33558700 -rwxr-xr-x 1 lperciliano lperciliano 1734 jul 20 16:14 04FilterShared
+33558697 -rwxr-xr-x 1 lperciliano lperciliano 2887 jul 20 16:14 04FilterStrict
+33558699 -rwxr-xr-x 1 lperciliano lperciliano  741 jul 20 16:14 04FilterStrictCheck
+33558698 -rwxr-xr-x 1 lperciliano lperciliano 3521 jul 20 16:14 04FilterStrictMore
+33558701 -rwxr-xr-x 1 lperciliano lperciliano 2404 jul 20 16:14 05GenerateMWIFiles
+33558704 -rwxr-xr-x 1 lperciliano lperciliano  413 jul 20 16:14 allocate_files
+33558705 -rwxr-xr-x 1 lperciliano lperciliano 2493 jul 20 16:14 chunk_file
+33558703 -rwxr-xr-x 1 lperciliano lperciliano  620 jul 20 16:14 consolidate_info_lines
+33558706 -rwxr-xr-x 1 lperciliano lperciliano  254 jul 20 16:14 create_mrrank
+33955336 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Filter
+33558702 -rwxr-xr-x 1 lperciliano lperciliano  343 jul 20 16:14 filter_mrconso_ALL
+34084789 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Generate
+33558686 lrwxrwxrwx 1 lperciliano lperciliano   83 jul 20 16:14 MRCONSO.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRCONSO.RRF
+33558688 lrwxrwxrwx 1 lperciliano lperciliano   82 jul 20 16:14 MRRANK.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRRANK.RRF
+33558689 lrwxrwxrwx 1 lperciliano lperciliano   81 jul 20 16:14 MRSAB.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRSAB.RRF
+33558687 lrwxrwxrwx 1 lperciliano lperciliano   81 jul 20 16:14 MRSTY.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRSTY.RRF
+33558690 -rw-r--r-- 1 lperciliano lperciliano 3062 jul 20 16:14 st.raw
+33558684 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Suppress
+total 92
+33558683 drwxrwxr-x 5 lperciliano lperciliano 4096 jul 20 16:18 .
+33559882 drwxrwxr-x 8 lperciliano lperciliano 4096 jul 20 16:14 ..
+33558694 -rwxr-xr-x 1 lperciliano lperciliano 1414 jul 20 16:14 02Suppress
+33558695 -rwxr-xr-x 1 lperciliano lperciliano 3010 jul 20 16:14 03FilterPrep
+33558696 -rwxr-xr-x 1 lperciliano lperciliano 3396 jul 20 16:14 04FilterRelaxed
+33558700 -rwxr-xr-x 1 lperciliano lperciliano 1734 jul 20 16:14 04FilterShared
+33558697 -rwxr-xr-x 1 lperciliano lperciliano 2887 jul 20 16:14 04FilterStrict
+33558699 -rwxr-xr-x 1 lperciliano lperciliano  741 jul 20 16:14 04FilterStrictCheck
+33558698 -rwxr-xr-x 1 lperciliano lperciliano 3521 jul 20 16:14 04FilterStrictMore
+33558701 -rwxr-xr-x 1 lperciliano lperciliano 2404 jul 20 16:14 05GenerateMWIFiles
+33558704 -rwxr-xr-x 1 lperciliano lperciliano  413 jul 20 16:14 allocate_files
+33558705 -rwxr-xr-x 1 lperciliano lperciliano 2493 jul 20 16:14 chunk_file
+33558703 -rwxr-xr-x 1 lperciliano lperciliano  620 jul 20 16:14 consolidate_info_lines
+33558706 -rwxr-xr-x 1 lperciliano lperciliano  254 jul 20 16:14 create_mrrank
+33955336 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Filter
+33558702 -rwxr-xr-x 1 lperciliano lperciliano  343 jul 20 16:14 filter_mrconso_ALL
+34084789 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Generate
+33558686 lrwxrwxrwx 1 lperciliano lperciliano   83 jul 20 16:14 MRCONSO.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRCONSO.RRF
+33558688 lrwxrwxrwx 1 lperciliano lperciliano   82 jul 20 16:14 MRRANK.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRRANK.RRF
+33558689 lrwxrwxrwx 1 lperciliano lperciliano   81 jul 20 16:14 MRSAB.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRSAB.RRF
+33558687 lrwxrwxrwx 1 lperciliano lperciliano   81 jul 20 16:14 MRSTY.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRSTY.RRF
+33558690 -rw-r--r-- 1 lperciliano lperciliano 3062 jul 20 16:14 st.raw
+33558684 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Suppress
+total 100
+33558683 drwxrwxr-x 5 lperciliano lperciliano 4096 jul 20 16:19 .
+33559882 drwxrwxr-x 8 lperciliano lperciliano 4096 jul 20 16:14 ..
+33558693 -rwxrwxr-x 1 lperciliano lperciliano 4174 jul 20 16:19 01CreateWorkFiles
+33558694 -rwxr-xr-x 1 lperciliano lperciliano 1414 jul 20 16:14 02Suppress
+33558695 -rwxr-xr-x 1 lperciliano lperciliano 3010 jul 20 16:14 03FilterPrep
+33558696 -rwxr-xr-x 1 lperciliano lperciliano 3396 jul 20 16:14 04FilterRelaxed
+33558700 -rwxr-xr-x 1 lperciliano lperciliano 1734 jul 20 16:14 04FilterShared
+33558697 -rwxr-xr-x 1 lperciliano lperciliano 2887 jul 20 16:14 04FilterStrict
+33558699 -rwxr-xr-x 1 lperciliano lperciliano  741 jul 20 16:14 04FilterStrictCheck
+33558698 -rwxr-xr-x 1 lperciliano lperciliano 3521 jul 20 16:14 04FilterStrictMore
+33558701 -rwxr-xr-x 1 lperciliano lperciliano 2404 jul 20 16:14 05GenerateMWIFiles
+33558704 -rwxr-xr-x 1 lperciliano lperciliano  413 jul 20 16:14 allocate_files
+33558705 -rwxr-xr-x 1 lperciliano lperciliano 2493 jul 20 16:14 chunk_file
+33558703 -rwxr-xr-x 1 lperciliano lperciliano  620 jul 20 16:14 consolidate_info_lines
+33558706 -rwxr-xr-x 1 lperciliano lperciliano  254 jul 20 16:14 create_mrrank
+33955336 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Filter
+33558702 -rwxr-xr-x 1 lperciliano lperciliano  343 jul 20 16:14 filter_mrconso_ALL
+34084789 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Generate
+33558686 lrwxrwxrwx 1 lperciliano lperciliano   83 jul 20 16:14 MRCONSO.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRCONSO.RRF
+33558688 lrwxrwxrwx 1 lperciliano lperciliano   82 jul 20 16:14 MRRANK.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRRANK.RRF
+33558689 lrwxrwxrwx 1 lperciliano lperciliano   81 jul 20 16:14 MRSAB.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRSAB.RRF
+33558687 lrwxrwxrwx 1 lperciliano lperciliano   81 jul 20 16:14 MRSTY.RRF -> /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/umls/MRSTY.RRF
+33558690 -rw-r--r-- 1 lperciliano lperciliano 3062 jul 20 16:14 st.raw
+33558684 drwxrwxr-x 2 lperciliano lperciliano 4096 jul 20 16:14 Suppress
+Tue Jul 20 16:20:58 -03 2021
+creating MRCONSO.CUI.values
+creating MRCONSO.LAT.values
+creating MRCONSO.TS.values
+creating MRCONSO.LUI.values
+creating MRCONSO.STT.values
+creating MRCONSO.SUI.values
+creating MRCONSO.SAB.values
+creating MRCONSO.TTY.values
+creating MRCONSO.SRL.values
+Tue Jul 20 16:20:58 -03 2021
+  Create mrconso.eng.0 (without suppression)
+creating and sorting mrconso.ALLENG
+DONE
+excluding all non-ASCII lines from mrconso.ALLENG
+Reading in file mrconso.ALLENG
+ASCII-only lines being sent to ./mrconso.ALLENG.ASCII
+non-ASCII-only lines being sent to ./mrconso.ALLENG.nonASCII
+DONE
+moving mrconso.ALLENG to mrconso.eng.0
+Checking PPF/Y CUIs
+creating mrconso.eng.ALL.CUI
+creating mrconso.eng.PPF_Y.CUI
+doing counts
+PPF/Y CUIs are unique.
+PPF/Y CUIs cover all mrconso.eng.0
+OK, continuing.
+creating mrconso.eng.TS.values
+DONE
+Tue Jul 20 16:20:59 -03 2021
+ 
+ 
+Do preprocessing to suppress
+  numbers (0, 1, +1, 0.5, 50000)
+  single letters (a, A, b, B, ...)
+  bloopers (0->TPBF protein, and Periods->Menstruation)
+  unnecessary ambiguity (Other <n>, Protocols <n>, ...)
+ 
+  Run 02Suppress.
+ 
+ 
+ 
+The step does preprocessing to suppress
+  numbers (0, 1, +1, 0.5, 50000)
+  single letters (a, A, b, B, ...)
+  bloopers (0->TPBF protein, and Periods->Menstruation)
+  unnecessary ambiguity (Other <n>, Protocols <n>, ...)
+ 
+It also performs contextual suppression
+ 
+Intermediate results are found in Suppress/ 
+ 
+   This script will take about 4 minutes.
+ 
+
+Mark suppressibles in mrcon.eng 
+
+loading special suppressible term list: specialterms.txt
+41 special terms added to suppressibles term list.
+Processing mrconso.eng.0 by suppressibles.txt --> mrconso.suppressed and  suppressions.mrconso.
+
+   Suppression counts:
+     Unnecessarily ambiguous:   262
+                         NEC:   01
+                  Brand Name:     00
+                          EC:     00
+              Single Letters:     02
+                    Numerics:     00
+               Special Cases:       01
+              ---------------  -------
+                        Total   266
+
+
+   Warning: Some suppressible terms considered: 18
+
+
+ 
+A link is created to the just-created mrconso.eng in 01metawordindex/
+ 
+ 
+A link is created to the just-created mrcon.eng in 01metawordindex/
+ 
+ 
+    The next step is to run 03FilterPrep. 
+ 
+Tue Jul 20 16:23:13 -03 2021
+ 
+This step creates a file containing CUI -> SRC information from mrconso.eng
+  Filtering will be performed on this file: mrconso.eng .
+ 
+  Intermediate results can be found in Filter/
+ 
+  This step takes about 9 minutes.
+ 
+Tue Jul 20 16:23:13 -03 2021
+
+Creating source files:
+  cui_src.txt
+  cui_sourceinfo.txt
+
+creating cui_src.txt
+creating CUI_SRCs and CUI_STs
+DONE
+joining CUI_SRCs and CUI_STs
+DONE
+Tue Jul 20 16:23:14 -03 2021
+Processed 10000 lines of file mrconso.eng
+Processed 20000 lines of file mrconso.eng
+Processed 30000 lines of file mrconso.eng
+Processed 40000 lines of file mrconso.eng
+Processed 50000 lines of file mrconso.eng
+Processed 60000 lines of file mrconso.eng
+Processed 70000 lines of file mrconso.eng
+Processed 80000 lines of file mrconso.eng
+Processed 90000 lines of file mrconso.eng
+Processed 100000 lines of file mrconso.eng
+Processed 110000 lines of file mrconso.eng
+Processed 120000 lines of file mrconso.eng
+Processed 130000 lines of file mrconso.eng
+Processed 140000 lines of file mrconso.eng
+Processed 150000 lines of file mrconso.eng
+Processed 160000 lines of file mrconso.eng
+Processed 170000 lines of file mrconso.eng
+Processed 180000 lines of file mrconso.eng
+Processed 190000 lines of file mrconso.eng
+Processed 200000 lines of file mrconso.eng
+Processed 210000 lines of file mrconso.eng
+Processed 220000 lines of file mrconso.eng
+Processed 230000 lines of file mrconso.eng
+Processed 240000 lines of file mrconso.eng
+Processed 250000 lines of file mrconso.eng
+Processed 260000 lines of file mrconso.eng
+Processed 270000 lines of file mrconso.eng
+Processed 280000 lines of file mrconso.eng
+Processed 290000 lines of file mrconso.eng
+Processed 300000 lines of file mrconso.eng
+Processed 310000 lines of file mrconso.eng
+COMPLETED 316231 lines of file mrconso.eng
+Processed 10000 lines of file mrconso.eng
+Processed 20000 lines of file mrconso.eng
+Processed 30000 lines of file mrconso.eng
+Processed 40000 lines of file mrconso.eng
+Processed 50000 lines of file mrconso.eng
+Processed 60000 lines of file mrconso.eng
+Processed 70000 lines of file mrconso.eng
+Processed 80000 lines of file mrconso.eng
+Processed 90000 lines of file mrconso.eng
+Processed 100000 lines of file mrconso.eng
+Processed 110000 lines of file mrconso.eng
+Processed 120000 lines of file mrconso.eng
+Processed 130000 lines of file mrconso.eng
+Processed 140000 lines of file mrconso.eng
+Processed 150000 lines of file mrconso.eng
+Processed 160000 lines of file mrconso.eng
+Processed 170000 lines of file mrconso.eng
+Processed 180000 lines of file mrconso.eng
+Processed 190000 lines of file mrconso.eng
+Processed 200000 lines of file mrconso.eng
+Processed 210000 lines of file mrconso.eng
+Processed 220000 lines of file mrconso.eng
+Processed 230000 lines of file mrconso.eng
+Processed 240000 lines of file mrconso.eng
+Processed 250000 lines of file mrconso.eng
+Processed 260000 lines of file mrconso.eng
+Processed 270000 lines of file mrconso.eng
+Processed 280000 lines of file mrconso.eng
+Processed 290000 lines of file mrconso.eng
+Processed 300000 lines of file mrconso.eng
+Processed 310000 lines of file mrconso.eng
+COMPLETED 316231 lines of file mrconso.eng
+Tue Jul 20 16:23:15 -03 2021
+ 
+  Compressing Intermediate files to conserve disk space. 
+ 
+ 
+Tue Jul 20 16:23:15 -03 2021
+ 
+- - - - - - - - - - - - - - - - - - - - - -  
+ 
+The next step uses studies of the full UMLS 
+  to process NEC/NOS,
+  to handle parentheticals, and
+  to handle possessives.
+ 
+Run 04FilterRelaxed or  
+    04FilterModerate or  
+    04FilterStrict 
+    depending on which level(s) of filtering you desire.
+ 
+This creates Filter/mrcon.eng.strict,
+             Filter/mrcon.eng.moderate, and/or
+             Filter/mrcon.eng.relaxed
+ 
+Creates directories model.strict/,
+                   model.moderate/ and/or
+                   model.relaxed/
+each containing mrcon.filtered which is linked to the appropriate
+Filter/ file.
+ 
+ter 20 jul 2021 16:23:22 -03
+This system has 12 available, would you like to use more
+than one process for the strict filtering? [no]:
+Specify the number of processes to use: [default: 6]
+2
+MAX_PROCESSES=2
+ 
+The script is configured to run on an 2-processor Linux box.
+ 
+Note using more than one processes could overwhelm tagger server when using strict model.
+ 
+Change MAX_PROCESSES to reduce or increase number of simulataneous processes.
+ 
+Sleeping for 5 seconds.
+/home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/01metawordindex/Filter
+Creating 1000 smaller files, each containing about 317 lines
+
+0001 0002 0003 0004 0005 0006 0007 0008 0009 0010 0011 0012 0013 0014 0015 0016 0017 0018 0019 0020 0021 0022 0023 0024 0025 0026 0027 0028 0029 0030 0031 0032 0033 0034 0035 0036 0037 0038 0039 0040 0041 0042 0043 0044 0045 0046 0047 0048 0049 0050 0051 0052 0053 0054 0055 0056 0057 0058 0059 0060 0061 0062 0063 0064 0065 0066 0067 0068 0069 0070 0071 0072 0073 0074 0075 0076 0077 0078 0079 0080 0081 0082 0083 0084 0085 0086 0087 0088 0089 0090 0091 0092 0093 0094 0095 0096 0097 0098 0099 0100 0101 0102 0103 0104 0105 0106 0107 0108 0109 0110 0111 0112 0113 0114 0115 0116 0117 0118 0119 0120 0121 0122 0123 0124 0125 0126 0127 0128 0129 0130 0131 0132 0133 0134 0135 0136 0137 0138 0139 0140 0141 0142 0143 0144 0145 0146 0147 0148 0149 0150 0151 0152 0153 0154 0155 0156 0157 0158 0159 0160 0161 0162 0163 0164 0165 0166 0167 0168 0169 0170 0171 0172 0173 0174 0175 0176 0177 0178 0179 0180 0181 0182 0183 0184 0185 0186 0187 0188 0189 0190 0191 0192 0193 0194 0195 0196 0197 0198 0199 0200 0201 0202 0203 0204 0205 0206 0207 0208 0209 0210 0211 0212 0213 0214 0215 0216 0217 0218 0219 0220 0221 0222 0223 0224 0225 0226 0227 0228 0229 0230 0231 0232 0233 0234 0235 0236 0237 0238 0239 0240 0241 0242 0243 0244 0245 0246 0247 0248 0249 0250 0251 0252 0253 0254 0255 0256 0257 0258 0259 0260 0261 0262 0263 0264 0265 0266 0267 0268 0269 0270 0271 0272 0273 0274 0275 0276 0277 0278 0279 0280 0281 0282 0283 0284 0285 0286 0287 0288 0289 0290 0291 0292 0293 0294 0295 0296 0297 0298 0299 0300 0301 0302 0303 0304 0305 0306 0307 0308 0309 0310 0311 0312 0313 0314 0315 0316 0317 0318 0319 0320 0321 0322 0323 0324 0325 0326 0327 0328 0329 0330 0331 0332 0333 0334 0335 0336 0337 0338 0339 0340 0341 0342 0343 0344 0345 0346 0347 0348 0349 0350 0351 0352 0353 0354 0355 0356 0357 0358 0359 0360 0361 0362 0363 0364 0365 0366 0367 0368 0369 0370 0371 0372 0373 0374 0375 0376 0377 0378 0379 0380 0381 0382 0383 0384 0385 0386 0387 0388 0389 0390 0391 0392 0393 0394 0395 0396 0397 0398 0399 0400 0401 0402 0403 0404 0405 0406 0407 0408 0409 0410 0411 0412 0413 0414 0415 0416 0417 0418 0419 0420 0421 0422 0423 0424 0425 0426 0427 0428 0429 0430 0431 0432 0433 0434 0435 0436 0437 0438 0439 0440 0441 0442 0443 0444 0445 0446 0447 0448 0449 0450 0451 0452 0453 0454 0455 0456 0457 0458 0459 0460 0461 0462 0463 0464 0465 0466 0467 0468 0469 0470 0471 0472 0473 0474 0475 0476 0477 0478 0479 0480 0481 0482 0483 0484 0485 0486 0487 0488 0489 0490 0491 0492 0493 0494 0495 0496 0497 0498 0499 0500 0501 0502 0503 0504 0505 0506 0507 0508 0509 0510 0511 0512 0513 0514 0515 0516 0517 0518 0519 0520 0521 0522 0523 0524 0525 0526 0527 0528 0529 0530 0531 0532 0533 0534 0535 0536 0537 0538 0539 0540 0541 0542 0543 0544 0545 0546 0547 0548 0549 0550 0551 0552 0553 0554 0555 0556 0557 0558 0559 0560 0561 0562 0563 0564 0565 0566 0567 0568 0569 0570 0571 0572 0573 0574 0575 0576 0577 0578 0579 0580 0581 0582 0583 0584 0585 0586 0587 0588 0589 0590 0591 0592 0593 0594 0595 0596 0597 0598 0599 0600 0601 0602 0603 0604 0605 0606 0607 0608 0609 0610 0611 0612 0613 0614 0615 0616 0617 0618 0619 0620 0621 0622 0623 0624 0625 0626 0627 0628 0629 0630 0631 0632 0633 0634 0635 0636 0637 0638 0639 0640 0641 0642 0643 0644 0645 0646 0647 0648 0649 0650 0651 0652 0653 0654 0655 0656 0657 0658 0659 0660 0661 0662 0663 0664 0665 0666 0667 0668 0669 0670 0671 0672 0673 0674 0675 0676 0677 0678 0679 0680 0681 0682 0683 0684 0685 0686 0687 0688 0689 0690 0691 0692 0693 0694 0695 0696 0697 0698 0699 0700 0701 0702 0703 0704 0705 0706 0707 0708 0709 0710 0711 0712 0713 0714 0715 0716 0717 0718 0719 0720 0721 0722 0723 0724 0725 0726 0727 0728 0729 0730 0731 0732 0733 0734 0735 0736 0737 0738 0739 0740 0741 0742 0743 0744 0745 0746 0747 0748 0749 0750 0751 0752 0753 0754 0755 0756 0757 0758 0759 0760 0761 0762 0763 0764 0765 0766 0767 0768 0769 0770 0771 0772 0773 0774 0775 0776 0777 0778 0779 0780 0781 0782 0783 0784 0785 0786 0787 0788 0789 0790 0791 0792 0793 0794 0795 0796 0797 0798 0799 0800 0801 0802 0803 0804 0805 0806 0807 0808 0809 0810 0811 0812 0813 0814 0815 0816 0817 0818 0819 0820 0821 0822 0823 0824 0825 0826 0827 0828 0829 0830 0831 0832 0833 0834 0835 0836 0837 0838 0839 0840 0841 0842 0843 0844 0845 0846 0847 0848 0849 0850 0851 0852 0853 0854 0855 0856 0857 0858 0859 0860 0861 0862 0863 0864 0865 0866 0867 0868 0869 0870 0871 0872 0873 0874 0875 0876 0877 0878 0879 0880 0881 0882 0883 0884 0885 0886 0887 0888 0889 0890 0891 0892 0893 0894 0895 0896 0897 0898 0899 0900 0901 0902 0903 0904 0905 0906 0907 0908 0909 0910 0911 0912 0913 0914 0915 0916 0917 0918 0919 0920 0921 0922 0923 0924 0925 0926 0927 0928 0929 0930 0931 0932 0933 0934 0935 0936 0937 0938 0939 0940 0941 0942 0943 0944 0945 0946 0947 0948 0949 0950 0951 0952 0953 0954 0955 0956 0957 0958 0959 0960 0961 0962 0963 0964 0965 0966 0967 0968 0969 0970 0971 0972 0973 0974 0975 0976 0977 0978 0979 0980 0981 0982 0983 0984 0985 0986 0987 0988 0989 0990 0991 0992 0993 0994 0995 0996 0997 
+Tue Jul 20 16:23:34 -03 2021
+Running 2 filter_mrconso processes in parallel,
+depositing all the output files in the ALLFILES.strict directory.
+Creating mrrank file mrrank_UMLS_PORTUGUES.pl
+filter_mrconso_ALL mrrank_UMLS_PORTUGUES.pl strict -sEN 1000 mrconso.eng.chunk.0002 mrconso.eng.chunk.0004 mrconso.eng.chunk.0006 mrconso.eng.chunk.0008 mrconso.eng.chunk.0010 mrconso.eng.chunk.0012 mrconso.eng.chunk.0014 mrconso.eng.chunk.0016 mrconso.eng.chunk.0018 mrconso.eng.chunk.0020 mrconso.eng.chunk.0022 mrconso.eng.chunk.0024 mrconso.eng.chunk.0026 mrconso.eng.chunk.0028 mrconso.eng.chunk.0030 mrconso.eng.chunk.0032 mrconso.eng.chunk.0034 mrconso.eng.chunk.0036 mrconso.eng.chunk.0038 mrconso.eng.chunk.0040 mrconso.eng.chunk.0042 mrconso.eng.chunk.0044 mrconso.eng.chunk.0046 mrconso.eng.chunk.0048 mrconso.eng.chunk.0050 mrconso.eng.chunk.0052 mrconso.eng.chunk.0054 mrconso.eng.chunk.0056 mrconso.eng.chunk.0058 mrconso.eng.chunk.0060 mrconso.eng.chunk.0062 mrconso.eng.chunk.0064 mrconso.eng.chunk.0066 mrconso.eng.chunk.0068 mrconso.eng.chunk.0070 mrconso.eng.chunk.0072 mrconso.eng.chunk.0074 mrconso.eng.chunk.0076 mrconso.eng.chunk.0078 mrconso.eng.chunk.0080 mrconso.eng.chunk.0082 mrconso.eng.chunk.0084 mrconso.eng.chunk.0086 mrconso.eng.chunk.0088 mrconso.eng.chunk.0090 mrconso.eng.chunk.0092 mrconso.eng.chunk.0094 mrconso.eng.chunk.0096 mrconso.eng.chunk.0098 mrconso.eng.chunk.0100 mrconso.eng.chunk.0102 mrconso.eng.chunk.0104 mrconso.eng.chunk.0106 mrconso.eng.chunk.0108 mrconso.eng.chunk.0110 mrconso.eng.chunk.0112 mrconso.eng.chunk.0114 mrconso.eng.chunk.0116 mrconso.eng.chunk.0118 mrconso.eng.chunk.0120 mrconso.eng.chunk.0122 mrconso.eng.chunk.0124 mrconso.eng.chunk.0126 mrconso.eng.chunk.0128 mrconso.eng.chunk.0130 mrconso.eng.chunk.0132 mrconso.eng.chunk.0134 mrconso.eng.chunk.0136 mrconso.eng.chunk.0138 mrconso.eng.chunk.0140 mrconso.eng.chunk.0142 mrconso.eng.chunk.0144 mrconso.eng.chunk.0146 mrconso.eng.chunk.0148 mrconso.eng.chunk.0150 mrconso.eng.chunk.0152 mrconso.eng.chunk.0154 mrconso.eng.chunk.0156 mrconso.eng.chunk.0158 mrconso.eng.chunk.0160 mrconso.eng.chunk.0162 mrconso.eng.chunk.0164 mrconso.eng.chunk.0166 mrconso.eng.chunk.0168 mrconso.eng.chunk.0170 mrconso.eng.chunk.0172 mrconso.eng.chunk.0174 mrconso.eng.chunk.0176 mrconso.eng.chunk.0178 mrconso.eng.chunk.0180 mrconso.eng.chunk.0182 mrconso.eng.chunk.0184 mrconso.eng.chunk.0186 mrconso.eng.chunk.0188 mrconso.eng.chunk.0190 mrconso.eng.chunk.0192 mrconso.eng.chunk.0194 mrconso.eng.chunk.0196 mrconso.eng.chunk.0198 mrconso.eng.chunk.0200 mrconso.eng.chunk.0202 mrconso.eng.chunk.0204 mrconso.eng.chunk.0206 mrconso.eng.chunk.0208 mrconso.eng.chunk.0210 mrconso.eng.chunk.0212 mrconso.eng.chunk.0214 mrconso.eng.chunk.0216 mrconso.eng.chunk.0218 mrconso.eng.chunk.0220 mrconso.eng.chunk.0222 mrconso.eng.chunk.0224 mrconso.eng.chunk.0226 mrconso.eng.chunk.0228 mrconso.eng.chunk.0230 mrconso.eng.chunk.0232 mrconso.eng.chunk.0234 mrconso.eng.chunk.0236 mrconso.eng.chunk.0238 mrconso.eng.chunk.0240 mrconso.eng.chunk.0242 mrconso.eng.chunk.0244 mrconso.eng.chunk.0246 mrconso.eng.chunk.0248 mrconso.eng.chunk.0250 mrconso.eng.chunk.0252 mrconso.eng.chunk.0254 mrconso.eng.chunk.0256 mrconso.eng.chunk.0258 mrconso.eng.chunk.0260 mrconso.eng.chunk.0262 mrconso.eng.chunk.0264 mrconso.eng.chunk.0266 mrconso.eng.chunk.0268 mrconso.eng.chunk.0270 mrconso.eng.chunk.0272 mrconso.eng.chunk.0274 mrconso.eng.chunk.0276 mrconso.eng.chunk.0278 mrconso.eng.chunk.0280 mrconso.eng.chunk.0282 mrconso.eng.chunk.0284 mrconso.eng.chunk.0286 mrconso.eng.chunk.0288 mrconso.eng.chunk.0290 mrconso.eng.chunk.0292 mrconso.eng.chunk.0294 mrconso.eng.chunk.0296 mrconso.eng.chunk.0298 mrconso.eng.chunk.0300 mrconso.eng.chunk.0302 mrconso.eng.chunk.0304 mrconso.eng.chunk.0306 mrconso.eng.chunk.0308 mrconso.eng.chunk.0310 mrconso.eng.chunk.0312 mrconso.eng.chunk.0314 mrconso.eng.chunk.0316 mrconso.eng.chunk.0318 mrconso.eng.chunk.0320 mrconso.eng.chunk.0322 mrconso.eng.chunk.0324 mrconso.eng.chunk.0326 mrconso.eng.chunk.0328 mrconso.eng.chunk.0330 mrconso.eng.chunk.0332 mrconso.eng.chunk.0334 mrconso.eng.chunk.0336 mrconso.eng.chunk.0338 mrconso.eng.chunk.0340 mrconso.eng.chunk.0342 mrconso.eng.chunk.0344 mrconso.eng.chunk.0346 mrconso.eng.chunk.0348 mrconso.eng.chunk.0350 mrconso.eng.chunk.0352 mrconso.eng.chunk.0354 mrconso.eng.chunk.0356 mrconso.eng.chunk.0358 mrconso.eng.chunk.0360 mrconso.eng.chunk.0362 mrconso.eng.chunk.0364 mrconso.eng.chunk.0366 mrconso.eng.chunk.0368 mrconso.eng.chunk.0370 mrconso.eng.chunk.0372 mrconso.eng.chunk.0374 mrconso.eng.chunk.0376 mrconso.eng.chunk.0378 mrconso.eng.chunk.0380 mrconso.eng.chunk.0382 mrconso.eng.chunk.0384 mrconso.eng.chunk.0386 mrconso.eng.chunk.0388 mrconso.eng.chunk.0390 mrconso.eng.chunk.0392 mrconso.eng.chunk.0394 mrconso.eng.chunk.0396 mrconso.eng.chunk.0398 mrconso.eng.chunk.0400 mrconso.eng.chunk.0402 mrconso.eng.chunk.0404 mrconso.eng.chunk.0406 mrconso.eng.chunk.0408 mrconso.eng.chunk.0410 mrconso.eng.chunk.0412 mrconso.eng.chunk.0414 mrconso.eng.chunk.0416 mrconso.eng.chunk.0418 mrconso.eng.chunk.0420 mrconso.eng.chunk.0422 mrconso.eng.chunk.0424 mrconso.eng.chunk.0426 mrconso.eng.chunk.0428 mrconso.eng.chunk.0430 mrconso.eng.chunk.0432 mrconso.eng.chunk.0434 mrconso.eng.chunk.0436 mrconso.eng.chunk.0438 mrconso.eng.chunk.0440 mrconso.eng.chunk.0442 mrconso.eng.chunk.0444 mrconso.eng.chunk.0446 mrconso.eng.chunk.0448 mrconso.eng.chunk.0450 mrconso.eng.chunk.0452 mrconso.eng.chunk.0454 mrconso.eng.chunk.0456 mrconso.eng.chunk.0458 mrconso.eng.chunk.0460 mrconso.eng.chunk.0462 mrconso.eng.chunk.0464 mrconso.eng.chunk.0466 mrconso.eng.chunk.0468 mrconso.eng.chunk.0470 mrconso.eng.chunk.0472 mrconso.eng.chunk.0474 mrconso.eng.chunk.0476 mrconso.eng.chunk.0478 mrconso.eng.chunk.0480 mrconso.eng.chunk.0482 mrconso.eng.chunk.0484 mrconso.eng.chunk.0486 mrconso.eng.chunk.0488 mrconso.eng.chunk.0490 mrconso.eng.chunk.0492 mrconso.eng.chunk.0494 mrconso.eng.chunk.0496 mrconso.eng.chunk.0498 mrconso.eng.chunk.0500 mrconso.eng.chunk.0502 mrconso.eng.chunk.0504 mrconso.eng.chunk.0506 mrconso.eng.chunk.0508 mrconso.eng.chunk.0510 mrconso.eng.chunk.0512 mrconso.eng.chunk.0514 mrconso.eng.chunk.0516 mrconso.eng.chunk.0518 mrconso.eng.chunk.0520 mrconso.eng.chunk.0522 mrconso.eng.chunk.0524 mrconso.eng.chunk.0526 mrconso.eng.chunk.0528 mrconso.eng.chunk.0530 mrconso.eng.chunk.0532 mrconso.eng.chunk.0534 mrconso.eng.chunk.0536 mrconso.eng.chunk.0538 mrconso.eng.chunk.0540 mrconso.eng.chunk.0542 mrconso.eng.chunk.0544 mrconso.eng.chunk.0546 mrconso.eng.chunk.0548 mrconso.eng.chunk.0550 mrconso.eng.chunk.0552 mrconso.eng.chunk.0554 mrconso.eng.chunk.0556 mrconso.eng.chunk.0558 mrconso.eng.chunk.0560 mrconso.eng.chunk.0562 mrconso.eng.chunk.0564 mrconso.eng.chunk.0566 mrconso.eng.chunk.0568 mrconso.eng.chunk.0570 mrconso.eng.chunk.0572 mrconso.eng.chunk.0574 mrconso.eng.chunk.0576 mrconso.eng.chunk.0578 mrconso.eng.chunk.0580 mrconso.eng.chunk.0582 mrconso.eng.chunk.0584 mrconso.eng.chunk.0586 mrconso.eng.chunk.0588 mrconso.eng.chunk.0590 mrconso.eng.chunk.0592 mrconso.eng.chunk.0594 mrconso.eng.chunk.0596 mrconso.eng.chunk.0598 mrconso.eng.chunk.0600 mrconso.eng.chunk.0602 mrconso.eng.chunk.0604 mrconso.eng.chunk.0606 mrconso.eng.chunk.0608 mrconso.eng.chunk.0610 mrconso.eng.chunk.0612 mrconso.eng.chunk.0614 mrconso.eng.chunk.0616 mrconso.eng.chunk.0618 mrconso.eng.chunk.0620 mrconso.eng.chunk.0622 mrconso.eng.chunk.0624 mrconso.eng.chunk.0626 mrconso.eng.chunk.0628 mrconso.eng.chunk.0630 mrconso.eng.chunk.0632 mrconso.eng.chunk.0634 mrconso.eng.chunk.0636 mrconso.eng.chunk.0638 mrconso.eng.chunk.0640 mrconso.eng.chunk.0642 mrconso.eng.chunk.0644 mrconso.eng.chunk.0646 mrconso.eng.chunk.0648 mrconso.eng.chunk.0650 mrconso.eng.chunk.0652 mrconso.eng.chunk.0654 mrconso.eng.chunk.0656 mrconso.eng.chunk.0658 mrconso.eng.chunk.0660 mrconso.eng.chunk.0662 mrconso.eng.chunk.0664 mrconso.eng.chunk.0666 mrconso.eng.chunk.0668 mrconso.eng.chunk.0670 mrconso.eng.chunk.0672 mrconso.eng.chunk.0674 mrconso.eng.chunk.0676 mrconso.eng.chunk.0678 mrconso.eng.chunk.0680 mrconso.eng.chunk.0682 mrconso.eng.chunk.0684 mrconso.eng.chunk.0686 mrconso.eng.chunk.0688 mrconso.eng.chunk.0690 mrconso.eng.chunk.0692 mrconso.eng.chunk.0694 mrconso.eng.chunk.0696 mrconso.eng.chunk.0698 mrconso.eng.chunk.0700 mrconso.eng.chunk.0702 mrconso.eng.chunk.0704 mrconso.eng.chunk.0706 mrconso.eng.chunk.0708 mrconso.eng.chunk.0710 mrconso.eng.chunk.0712 mrconso.eng.chunk.0714 mrconso.eng.chunk.0716 mrconso.eng.chunk.0718 mrconso.eng.chunk.0720 mrconso.eng.chunk.0722 mrconso.eng.chunk.0724 mrconso.eng.chunk.0726 mrconso.eng.chunk.0728 mrconso.eng.chunk.0730 mrconso.eng.chunk.0732 mrconso.eng.chunk.0734 mrconso.eng.chunk.0736 mrconso.eng.chunk.0738 mrconso.eng.chunk.0740 mrconso.eng.chunk.0742 mrconso.eng.chunk.0744 mrconso.eng.chunk.0746 mrconso.eng.chunk.0748 mrconso.eng.chunk.0750 mrconso.eng.chunk.0752 mrconso.eng.chunk.0754 mrconso.eng.chunk.0756 mrconso.eng.chunk.0758 mrconso.eng.chunk.0760 mrconso.eng.chunk.0762 mrconso.eng.chunk.0764 mrconso.eng.chunk.0766 mrconso.eng.chunk.0768 mrconso.eng.chunk.0770 mrconso.eng.chunk.0772 mrconso.eng.chunk.0774 mrconso.eng.chunk.0776 mrconso.eng.chunk.0778 mrconso.eng.chunk.0780 mrconso.eng.chunk.0782 mrconso.eng.chunk.0784 mrconso.eng.chunk.0786 mrconso.eng.chunk.0788 mrconso.eng.chunk.0790 mrconso.eng.chunk.0792 mrconso.eng.chunk.0794 mrconso.eng.chunk.0796 mrconso.eng.chunk.0798 mrconso.eng.chunk.0800 mrconso.eng.chunk.0802 mrconso.eng.chunk.0804 mrconso.eng.chunk.0806 mrconso.eng.chunk.0808 mrconso.eng.chunk.0810 mrconso.eng.chunk.0812 mrconso.eng.chunk.0814 mrconso.eng.chunk.0816 mrconso.eng.chunk.0818 mrconso.eng.chunk.0820 mrconso.eng.chunk.0822 mrconso.eng.chunk.0824 mrconso.eng.chunk.0826 mrconso.eng.chunk.0828 mrconso.eng.chunk.0830 mrconso.eng.chunk.0832 mrconso.eng.chunk.0834 mrconso.eng.chunk.0836 mrconso.eng.chunk.0838 mrconso.eng.chunk.0840 mrconso.eng.chunk.0842 mrconso.eng.chunk.0844 mrconso.eng.chunk.0846 mrconso.eng.chunk.0848 mrconso.eng.chunk.0850 mrconso.eng.chunk.0852 mrconso.eng.chunk.0854 mrconso.eng.chunk.0856 mrconso.eng.chunk.0858 mrconso.eng.chunk.0860 mrconso.eng.chunk.0862 mrconso.eng.chunk.0864 mrconso.eng.chunk.0866 mrconso.eng.chunk.0868 mrconso.eng.chunk.0870 mrconso.eng.chunk.0872 mrconso.eng.chunk.0874 mrconso.eng.chunk.0876 mrconso.eng.chunk.0878 mrconso.eng.chunk.0880 mrconso.eng.chunk.0882 mrconso.eng.chunk.0884 mrconso.eng.chunk.0886 mrconso.eng.chunk.0888 mrconso.eng.chunk.0890 mrconso.eng.chunk.0892 mrconso.eng.chunk.0894 mrconso.eng.chunk.0896 mrconso.eng.chunk.0898 mrconso.eng.chunk.0900 mrconso.eng.chunk.0902 mrconso.eng.chunk.0904 mrconso.eng.chunk.0906 mrconso.eng.chunk.0908 mrconso.eng.chunk.0910 mrconso.eng.chunk.0912 mrconso.eng.chunk.0914 mrconso.eng.chunk.0916 mrconso.eng.chunk.0918 mrconso.eng.chunk.0920 mrconso.eng.chunk.0922 mrconso.eng.chunk.0924 mrconso.eng.chunk.0926 mrconso.eng.chunk.0928 mrconso.eng.chunk.0930 mrconso.eng.chunk.0932 mrconso.eng.chunk.0934 mrconso.eng.chunk.0936 mrconso.eng.chunk.0938 mrconso.eng.chunk.0940 mrconso.eng.chunk.0942 mrconso.eng.chunk.0944 mrconso.eng.chunk.0946 mrconso.eng.chunk.0948 mrconso.eng.chunk.0950 mrconso.eng.chunk.0952 mrconso.eng.chunk.0954 mrconso.eng.chunk.0956 mrconso.eng.chunk.0958 mrconso.eng.chunk.0960 mrconso.eng.chunk.0962 mrconso.eng.chunk.0964 mrconso.eng.chunk.0966 mrconso.eng.chunk.0968 mrconso.eng.chunk.0970 mrconso.eng.chunk.0972 mrconso.eng.chunk.0974 mrconso.eng.chunk.0976 mrconso.eng.chunk.0978 mrconso.eng.chunk.0980 mrconso.eng.chunk.0982 mrconso.eng.chunk.0984 mrconso.eng.chunk.0986 mrconso.eng.chunk.0988 mrconso.eng.chunk.0990 mrconso.eng.chunk.0992 mrconso.eng.chunk.0994 mrconso.eng.chunk.0996 mrconso.eng.chunk.0998
+
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0002 mrconso.eng.chunk.0002.filtered
+filter_mrconso_ALL mrrank_UMLS_PORTUGUES.pl strict -sEN 1000 mrconso.eng.chunk.0001 mrconso.eng.chunk.0003 mrconso.eng.chunk.0005 mrconso.eng.chunk.0007 mrconso.eng.chunk.0009 mrconso.eng.chunk.0011 mrconso.eng.chunk.0013 mrconso.eng.chunk.0015 mrconso.eng.chunk.0017 mrconso.eng.chunk.0019 mrconso.eng.chunk.0021 mrconso.eng.chunk.0023 mrconso.eng.chunk.0025 mrconso.eng.chunk.0027 mrconso.eng.chunk.0029 mrconso.eng.chunk.0031 mrconso.eng.chunk.0033 mrconso.eng.chunk.0035 mrconso.eng.chunk.0037 mrconso.eng.chunk.0039 mrconso.eng.chunk.0041 mrconso.eng.chunk.0043 mrconso.eng.chunk.0045 mrconso.eng.chunk.0047 mrconso.eng.chunk.0049 mrconso.eng.chunk.0051 mrconso.eng.chunk.0053 mrconso.eng.chunk.0055 mrconso.eng.chunk.0057 mrconso.eng.chunk.0059 mrconso.eng.chunk.0061 mrconso.eng.chunk.0063 mrconso.eng.chunk.0065 mrconso.eng.chunk.0067 mrconso.eng.chunk.0069 mrconso.eng.chunk.0071 mrconso.eng.chunk.0073 mrconso.eng.chunk.0075 mrconso.eng.chunk.0077 mrconso.eng.chunk.0079 mrconso.eng.chunk.0081 mrconso.eng.chunk.0083 mrconso.eng.chunk.0085 mrconso.eng.chunk.0087 mrconso.eng.chunk.0089 mrconso.eng.chunk.0091 mrconso.eng.chunk.0093 mrconso.eng.chunk.0095 mrconso.eng.chunk.0097 mrconso.eng.chunk.0099 mrconso.eng.chunk.0101 mrconso.eng.chunk.0103 mrconso.eng.chunk.0105 mrconso.eng.chunk.0107 mrconso.eng.chunk.0109 mrconso.eng.chunk.0111 mrconso.eng.chunk.0113 mrconso.eng.chunk.0115 mrconso.eng.chunk.0117 mrconso.eng.chunk.0119 mrconso.eng.chunk.0121 mrconso.eng.chunk.0123 mrconso.eng.chunk.0125 mrconso.eng.chunk.0127 mrconso.eng.chunk.0129 mrconso.eng.chunk.0131 mrconso.eng.chunk.0133 mrconso.eng.chunk.0135 mrconso.eng.chunk.0137 mrconso.eng.chunk.0139 mrconso.eng.chunk.0141 mrconso.eng.chunk.0143 mrconso.eng.chunk.0145 mrconso.eng.chunk.0147 mrconso.eng.chunk.0149 mrconso.eng.chunk.0151 mrconso.eng.chunk.0153 mrconso.eng.chunk.0155 mrconso.eng.chunk.0157 mrconso.eng.chunk.0159 mrconso.eng.chunk.0161 mrconso.eng.chunk.0163 mrconso.eng.chunk.0165 mrconso.eng.chunk.0167 mrconso.eng.chunk.0169 mrconso.eng.chunk.0171 mrconso.eng.chunk.0173 mrconso.eng.chunk.0175 mrconso.eng.chunk.0177 mrconso.eng.chunk.0179 mrconso.eng.chunk.0181 mrconso.eng.chunk.0183 mrconso.eng.chunk.0185 mrconso.eng.chunk.0187 mrconso.eng.chunk.0189 mrconso.eng.chunk.0191 mrconso.eng.chunk.0193 mrconso.eng.chunk.0195 mrconso.eng.chunk.0197 mrconso.eng.chunk.0199 mrconso.eng.chunk.0201 mrconso.eng.chunk.0203 mrconso.eng.chunk.0205 mrconso.eng.chunk.0207 mrconso.eng.chunk.0209 mrconso.eng.chunk.0211 mrconso.eng.chunk.0213 mrconso.eng.chunk.0215 mrconso.eng.chunk.0217 mrconso.eng.chunk.0219 mrconso.eng.chunk.0221 mrconso.eng.chunk.0223 mrconso.eng.chunk.0225 mrconso.eng.chunk.0227 mrconso.eng.chunk.0229 mrconso.eng.chunk.0231 mrconso.eng.chunk.0233 mrconso.eng.chunk.0235 mrconso.eng.chunk.0237 mrconso.eng.chunk.0239 mrconso.eng.chunk.0241 mrconso.eng.chunk.0243 mrconso.eng.chunk.0245 mrconso.eng.chunk.0247 mrconso.eng.chunk.0249 mrconso.eng.chunk.0251 mrconso.eng.chunk.0253 mrconso.eng.chunk.0255 mrconso.eng.chunk.0257 mrconso.eng.chunk.0259 mrconso.eng.chunk.0261 mrconso.eng.chunk.0263 mrconso.eng.chunk.0265 mrconso.eng.chunk.0267 mrconso.eng.chunk.0269 mrconso.eng.chunk.0271 mrconso.eng.chunk.0273 mrconso.eng.chunk.0275 mrconso.eng.chunk.0277 mrconso.eng.chunk.0279 mrconso.eng.chunk.0281 mrconso.eng.chunk.0283 mrconso.eng.chunk.0285 mrconso.eng.chunk.0287 mrconso.eng.chunk.0289 mrconso.eng.chunk.0291 mrconso.eng.chunk.0293 mrconso.eng.chunk.0295 mrconso.eng.chunk.0297 mrconso.eng.chunk.0299 mrconso.eng.chunk.0301 mrconso.eng.chunk.0303 mrconso.eng.chunk.0305 mrconso.eng.chunk.0307 mrconso.eng.chunk.0309 mrconso.eng.chunk.0311 mrconso.eng.chunk.0313 mrconso.eng.chunk.0315 mrconso.eng.chunk.0317 mrconso.eng.chunk.0319 mrconso.eng.chunk.0321 mrconso.eng.chunk.0323 mrconso.eng.chunk.0325 mrconso.eng.chunk.0327 mrconso.eng.chunk.0329 mrconso.eng.chunk.0331 mrconso.eng.chunk.0333 mrconso.eng.chunk.0335 mrconso.eng.chunk.0337 mrconso.eng.chunk.0339 mrconso.eng.chunk.0341 mrconso.eng.chunk.0343 mrconso.eng.chunk.0345 mrconso.eng.chunk.0347 mrconso.eng.chunk.0349 mrconso.eng.chunk.0351 mrconso.eng.chunk.0353 mrconso.eng.chunk.0355 mrconso.eng.chunk.0357 mrconso.eng.chunk.0359 mrconso.eng.chunk.0361 mrconso.eng.chunk.0363 mrconso.eng.chunk.0365 mrconso.eng.chunk.0367 mrconso.eng.chunk.0369 mrconso.eng.chunk.0371 mrconso.eng.chunk.0373 mrconso.eng.chunk.0375 mrconso.eng.chunk.0377 mrconso.eng.chunk.0379 mrconso.eng.chunk.0381 mrconso.eng.chunk.0383 mrconso.eng.chunk.0385 mrconso.eng.chunk.0387 mrconso.eng.chunk.0389 mrconso.eng.chunk.0391 mrconso.eng.chunk.0393 mrconso.eng.chunk.0395 mrconso.eng.chunk.0397 mrconso.eng.chunk.0399 mrconso.eng.chunk.0401 mrconso.eng.chunk.0403 mrconso.eng.chunk.0405 mrconso.eng.chunk.0407 mrconso.eng.chunk.0409 mrconso.eng.chunk.0411 mrconso.eng.chunk.0413 mrconso.eng.chunk.0415 mrconso.eng.chunk.0417 mrconso.eng.chunk.0419 mrconso.eng.chunk.0421 mrconso.eng.chunk.0423 mrconso.eng.chunk.0425 mrconso.eng.chunk.0427 mrconso.eng.chunk.0429 mrconso.eng.chunk.0431 mrconso.eng.chunk.0433 mrconso.eng.chunk.0435 mrconso.eng.chunk.0437 mrconso.eng.chunk.0439 mrconso.eng.chunk.0441 mrconso.eng.chunk.0443 mrconso.eng.chunk.0445 mrconso.eng.chunk.0447 mrconso.eng.chunk.0449 mrconso.eng.chunk.0451 mrconso.eng.chunk.0453 mrconso.eng.chunk.0455 mrconso.eng.chunk.0457 mrconso.eng.chunk.0459 mrconso.eng.chunk.0461 mrconso.eng.chunk.0463 mrconso.eng.chunk.0465 mrconso.eng.chunk.0467 mrconso.eng.chunk.0469 mrconso.eng.chunk.0471 mrconso.eng.chunk.0473 mrconso.eng.chunk.0475 mrconso.eng.chunk.0477 mrconso.eng.chunk.0479 mrconso.eng.chunk.0481 mrconso.eng.chunk.0483 mrconso.eng.chunk.0485 mrconso.eng.chunk.0487 mrconso.eng.chunk.0489 mrconso.eng.chunk.0491 mrconso.eng.chunk.0493 mrconso.eng.chunk.0495 mrconso.eng.chunk.0497 mrconso.eng.chunk.0499 mrconso.eng.chunk.0501 mrconso.eng.chunk.0503 mrconso.eng.chunk.0505 mrconso.eng.chunk.0507 mrconso.eng.chunk.0509 mrconso.eng.chunk.0511 mrconso.eng.chunk.0513 mrconso.eng.chunk.0515 mrconso.eng.chunk.0517 mrconso.eng.chunk.0519 mrconso.eng.chunk.0521 mrconso.eng.chunk.0523 mrconso.eng.chunk.0525 mrconso.eng.chunk.0527 mrconso.eng.chunk.0529 mrconso.eng.chunk.0531 mrconso.eng.chunk.0533 mrconso.eng.chunk.0535 mrconso.eng.chunk.0537 mrconso.eng.chunk.0539 mrconso.eng.chunk.0541 mrconso.eng.chunk.0543 mrconso.eng.chunk.0545 mrconso.eng.chunk.0547 mrconso.eng.chunk.0549 mrconso.eng.chunk.0551 mrconso.eng.chunk.0553 mrconso.eng.chunk.0555 mrconso.eng.chunk.0557 mrconso.eng.chunk.0559 mrconso.eng.chunk.0561 mrconso.eng.chunk.0563 mrconso.eng.chunk.0565 mrconso.eng.chunk.0567 mrconso.eng.chunk.0569 mrconso.eng.chunk.0571 mrconso.eng.chunk.0573 mrconso.eng.chunk.0575 mrconso.eng.chunk.0577 mrconso.eng.chunk.0579 mrconso.eng.chunk.0581 mrconso.eng.chunk.0583 mrconso.eng.chunk.0585 mrconso.eng.chunk.0587 mrconso.eng.chunk.0589 mrconso.eng.chunk.0591 mrconso.eng.chunk.0593 mrconso.eng.chunk.0595 mrconso.eng.chunk.0597 mrconso.eng.chunk.0599 mrconso.eng.chunk.0601 mrconso.eng.chunk.0603 mrconso.eng.chunk.0605 mrconso.eng.chunk.0607 mrconso.eng.chunk.0609 mrconso.eng.chunk.0611 mrconso.eng.chunk.0613 mrconso.eng.chunk.0615 mrconso.eng.chunk.0617 mrconso.eng.chunk.0619 mrconso.eng.chunk.0621 mrconso.eng.chunk.0623 mrconso.eng.chunk.0625 mrconso.eng.chunk.0627 mrconso.eng.chunk.0629 mrconso.eng.chunk.0631 mrconso.eng.chunk.0633 mrconso.eng.chunk.0635 mrconso.eng.chunk.0637 mrconso.eng.chunk.0639 mrconso.eng.chunk.0641 mrconso.eng.chunk.0643 mrconso.eng.chunk.0645 mrconso.eng.chunk.0647 mrconso.eng.chunk.0649 mrconso.eng.chunk.0651 mrconso.eng.chunk.0653 mrconso.eng.chunk.0655 mrconso.eng.chunk.0657 mrconso.eng.chunk.0659 mrconso.eng.chunk.0661 mrconso.eng.chunk.0663 mrconso.eng.chunk.0665 mrconso.eng.chunk.0667 mrconso.eng.chunk.0669 mrconso.eng.chunk.0671 mrconso.eng.chunk.0673 mrconso.eng.chunk.0675 mrconso.eng.chunk.0677 mrconso.eng.chunk.0679 mrconso.eng.chunk.0681 mrconso.eng.chunk.0683 mrconso.eng.chunk.0685 mrconso.eng.chunk.0687 mrconso.eng.chunk.0689 mrconso.eng.chunk.0691 mrconso.eng.chunk.0693 mrconso.eng.chunk.0695 mrconso.eng.chunk.0697 mrconso.eng.chunk.0699 mrconso.eng.chunk.0701 mrconso.eng.chunk.0703 mrconso.eng.chunk.0705 mrconso.eng.chunk.0707 mrconso.eng.chunk.0709 mrconso.eng.chunk.0711 mrconso.eng.chunk.0713 mrconso.eng.chunk.0715 mrconso.eng.chunk.0717 mrconso.eng.chunk.0719 mrconso.eng.chunk.0721 mrconso.eng.chunk.0723 mrconso.eng.chunk.0725 mrconso.eng.chunk.0727 mrconso.eng.chunk.0729 mrconso.eng.chunk.0731 mrconso.eng.chunk.0733 mrconso.eng.chunk.0735 mrconso.eng.chunk.0737 mrconso.eng.chunk.0739 mrconso.eng.chunk.0741 mrconso.eng.chunk.0743 mrconso.eng.chunk.0745 mrconso.eng.chunk.0747 mrconso.eng.chunk.0749 mrconso.eng.chunk.0751 mrconso.eng.chunk.0753 mrconso.eng.chunk.0755 mrconso.eng.chunk.0757 mrconso.eng.chunk.0759 mrconso.eng.chunk.0761 mrconso.eng.chunk.0763 mrconso.eng.chunk.0765 mrconso.eng.chunk.0767 mrconso.eng.chunk.0769 mrconso.eng.chunk.0771 mrconso.eng.chunk.0773 mrconso.eng.chunk.0775 mrconso.eng.chunk.0777 mrconso.eng.chunk.0779 mrconso.eng.chunk.0781 mrconso.eng.chunk.0783 mrconso.eng.chunk.0785 mrconso.eng.chunk.0787 mrconso.eng.chunk.0789 mrconso.eng.chunk.0791 mrconso.eng.chunk.0793 mrconso.eng.chunk.0795 mrconso.eng.chunk.0797 mrconso.eng.chunk.0799 mrconso.eng.chunk.0801 mrconso.eng.chunk.0803 mrconso.eng.chunk.0805 mrconso.eng.chunk.0807 mrconso.eng.chunk.0809 mrconso.eng.chunk.0811 mrconso.eng.chunk.0813 mrconso.eng.chunk.0815 mrconso.eng.chunk.0817 mrconso.eng.chunk.0819 mrconso.eng.chunk.0821 mrconso.eng.chunk.0823 mrconso.eng.chunk.0825 mrconso.eng.chunk.0827 mrconso.eng.chunk.0829 mrconso.eng.chunk.0831 mrconso.eng.chunk.0833 mrconso.eng.chunk.0835 mrconso.eng.chunk.0837 mrconso.eng.chunk.0839 mrconso.eng.chunk.0841 mrconso.eng.chunk.0843 mrconso.eng.chunk.0845 mrconso.eng.chunk.0847 mrconso.eng.chunk.0849 mrconso.eng.chunk.0851 mrconso.eng.chunk.0853 mrconso.eng.chunk.0855 mrconso.eng.chunk.0857 mrconso.eng.chunk.0859 mrconso.eng.chunk.0861 mrconso.eng.chunk.0863 mrconso.eng.chunk.0865 mrconso.eng.chunk.0867 mrconso.eng.chunk.0869 mrconso.eng.chunk.0871 mrconso.eng.chunk.0873 mrconso.eng.chunk.0875 mrconso.eng.chunk.0877 mrconso.eng.chunk.0879 mrconso.eng.chunk.0881 mrconso.eng.chunk.0883 mrconso.eng.chunk.0885 mrconso.eng.chunk.0887 mrconso.eng.chunk.0889 mrconso.eng.chunk.0891 mrconso.eng.chunk.0893 mrconso.eng.chunk.0895 mrconso.eng.chunk.0897 mrconso.eng.chunk.0899 mrconso.eng.chunk.0901 mrconso.eng.chunk.0903 mrconso.eng.chunk.0905 mrconso.eng.chunk.0907 mrconso.eng.chunk.0909 mrconso.eng.chunk.0911 mrconso.eng.chunk.0913 mrconso.eng.chunk.0915 mrconso.eng.chunk.0917 mrconso.eng.chunk.0919 mrconso.eng.chunk.0921 mrconso.eng.chunk.0923 mrconso.eng.chunk.0925 mrconso.eng.chunk.0927 mrconso.eng.chunk.0929 mrconso.eng.chunk.0931 mrconso.eng.chunk.0933 mrconso.eng.chunk.0935 mrconso.eng.chunk.0937 mrconso.eng.chunk.0939 mrconso.eng.chunk.0941 mrconso.eng.chunk.0943 mrconso.eng.chunk.0945 mrconso.eng.chunk.0947 mrconso.eng.chunk.0949 mrconso.eng.chunk.0951 mrconso.eng.chunk.0953 mrconso.eng.chunk.0955 mrconso.eng.chunk.0957 mrconso.eng.chunk.0959 mrconso.eng.chunk.0961 mrconso.eng.chunk.0963 mrconso.eng.chunk.0965 mrconso.eng.chunk.0967 mrconso.eng.chunk.0969 mrconso.eng.chunk.0971 mrconso.eng.chunk.0973 mrconso.eng.chunk.0975 mrconso.eng.chunk.0977 mrconso.eng.chunk.0979 mrconso.eng.chunk.0981 mrconso.eng.chunk.0983 mrconso.eng.chunk.0985 mrconso.eng.chunk.0987 mrconso.eng.chunk.0989 mrconso.eng.chunk.0991 mrconso.eng.chunk.0993 mrconso.eng.chunk.0995 mrconso.eng.chunk.0997
+
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0001 mrconso.eng.chunk.0001.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0004 mrconso.eng.chunk.0004.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0003 mrconso.eng.chunk.0003.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0006 mrconso.eng.chunk.0006.filtered
+filter_mrconso -sEN -p 1000 -t 326 mrconso.eng.chunk.0005 mrconso.eng.chunk.0005.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0008 mrconso.eng.chunk.0008.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0007 mrconso.eng.chunk.0007.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0010 mrconso.eng.chunk.0010.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0009 mrconso.eng.chunk.0009.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0012 mrconso.eng.chunk.0012.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0011 mrconso.eng.chunk.0011.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0014 mrconso.eng.chunk.0014.filtered
+filter_mrconso -sEN -p 1000 -t 323 mrconso.eng.chunk.0013 mrconso.eng.chunk.0013.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0015 mrconso.eng.chunk.0015.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0016 mrconso.eng.chunk.0016.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0017 mrconso.eng.chunk.0017.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0018 mrconso.eng.chunk.0018.filtered
+filter_mrconso -sEN -p 1000 -t 326 mrconso.eng.chunk.0019 mrconso.eng.chunk.0019.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0020 mrconso.eng.chunk.0020.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0021 mrconso.eng.chunk.0021.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0022 mrconso.eng.chunk.0022.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0023 mrconso.eng.chunk.0023.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0024 mrconso.eng.chunk.0024.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0026 mrconso.eng.chunk.0026.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0025 mrconso.eng.chunk.0025.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0028 mrconso.eng.chunk.0028.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0027 mrconso.eng.chunk.0027.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0029 mrconso.eng.chunk.0029.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0030 mrconso.eng.chunk.0030.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0031 mrconso.eng.chunk.0031.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0032 mrconso.eng.chunk.0032.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0033 mrconso.eng.chunk.0033.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0034 mrconso.eng.chunk.0034.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0035 mrconso.eng.chunk.0035.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0036 mrconso.eng.chunk.0036.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0037 mrconso.eng.chunk.0037.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0038 mrconso.eng.chunk.0038.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0039 mrconso.eng.chunk.0039.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0040 mrconso.eng.chunk.0040.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0041 mrconso.eng.chunk.0041.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0042 mrconso.eng.chunk.0042.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0043 mrconso.eng.chunk.0043.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0044 mrconso.eng.chunk.0044.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0045 mrconso.eng.chunk.0045.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0046 mrconso.eng.chunk.0046.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0047 mrconso.eng.chunk.0047.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0048 mrconso.eng.chunk.0048.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0049 mrconso.eng.chunk.0049.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0050 mrconso.eng.chunk.0050.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0051 mrconso.eng.chunk.0051.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0052 mrconso.eng.chunk.0052.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0053 mrconso.eng.chunk.0053.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0054 mrconso.eng.chunk.0054.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0055 mrconso.eng.chunk.0055.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0056 mrconso.eng.chunk.0056.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0057 mrconso.eng.chunk.0057.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0058 mrconso.eng.chunk.0058.filtered
+filter_mrconso -sEN -p 1000 -t 328 mrconso.eng.chunk.0059 mrconso.eng.chunk.0059.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0060 mrconso.eng.chunk.0060.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0061 mrconso.eng.chunk.0061.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0062 mrconso.eng.chunk.0062.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0063 mrconso.eng.chunk.0063.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0064 mrconso.eng.chunk.0064.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0065 mrconso.eng.chunk.0065.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0066 mrconso.eng.chunk.0066.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0067 mrconso.eng.chunk.0067.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0068 mrconso.eng.chunk.0068.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0069 mrconso.eng.chunk.0069.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0070 mrconso.eng.chunk.0070.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0071 mrconso.eng.chunk.0071.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0072 mrconso.eng.chunk.0072.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0073 mrconso.eng.chunk.0073.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0074 mrconso.eng.chunk.0074.filtered
+filter_mrconso -sEN -p 1000 -t 323 mrconso.eng.chunk.0075 mrconso.eng.chunk.0075.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0076 mrconso.eng.chunk.0076.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0077 mrconso.eng.chunk.0077.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0078 mrconso.eng.chunk.0078.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0079 mrconso.eng.chunk.0079.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0080 mrconso.eng.chunk.0080.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0081 mrconso.eng.chunk.0081.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0082 mrconso.eng.chunk.0082.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0083 mrconso.eng.chunk.0083.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0084 mrconso.eng.chunk.0084.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0085 mrconso.eng.chunk.0085.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0086 mrconso.eng.chunk.0086.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0087 mrconso.eng.chunk.0087.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0088 mrconso.eng.chunk.0088.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0089 mrconso.eng.chunk.0089.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0090 mrconso.eng.chunk.0090.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0091 mrconso.eng.chunk.0091.filtered
+filter_mrconso -sEN -p 1000 -t 330 mrconso.eng.chunk.0092 mrconso.eng.chunk.0092.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0093 mrconso.eng.chunk.0093.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0094 mrconso.eng.chunk.0094.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0095 mrconso.eng.chunk.0095.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0096 mrconso.eng.chunk.0096.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0097 mrconso.eng.chunk.0097.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0098 mrconso.eng.chunk.0098.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0099 mrconso.eng.chunk.0099.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0100 mrconso.eng.chunk.0100.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0101 mrconso.eng.chunk.0101.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0102 mrconso.eng.chunk.0102.filtered
+filter_mrconso -sEN -p 1000 -t 327 mrconso.eng.chunk.0103 mrconso.eng.chunk.0103.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0104 mrconso.eng.chunk.0104.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0105 mrconso.eng.chunk.0105.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0106 mrconso.eng.chunk.0106.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0107 mrconso.eng.chunk.0107.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0108 mrconso.eng.chunk.0108.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0109 mrconso.eng.chunk.0109.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0110 mrconso.eng.chunk.0110.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0111 mrconso.eng.chunk.0111.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0112 mrconso.eng.chunk.0112.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0113 mrconso.eng.chunk.0113.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0114 mrconso.eng.chunk.0114.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0115 mrconso.eng.chunk.0115.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0116 mrconso.eng.chunk.0116.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0117 mrconso.eng.chunk.0117.filtered
+filter_mrconso -sEN -p 1000 -t 338 mrconso.eng.chunk.0118 mrconso.eng.chunk.0118.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0119 mrconso.eng.chunk.0119.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0120 mrconso.eng.chunk.0120.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0121 mrconso.eng.chunk.0121.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0122 mrconso.eng.chunk.0122.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0123 mrconso.eng.chunk.0123.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0124 mrconso.eng.chunk.0124.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0125 mrconso.eng.chunk.0125.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0126 mrconso.eng.chunk.0126.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0127 mrconso.eng.chunk.0127.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0128 mrconso.eng.chunk.0128.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0129 mrconso.eng.chunk.0129.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0130 mrconso.eng.chunk.0130.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0131 mrconso.eng.chunk.0131.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0132 mrconso.eng.chunk.0132.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0133 mrconso.eng.chunk.0133.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0134 mrconso.eng.chunk.0134.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0135 mrconso.eng.chunk.0135.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0136 mrconso.eng.chunk.0136.filtered
+filter_mrconso -sEN -p 1000 -t 335 mrconso.eng.chunk.0137 mrconso.eng.chunk.0137.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0138 mrconso.eng.chunk.0138.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0139 mrconso.eng.chunk.0139.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0140 mrconso.eng.chunk.0140.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0141 mrconso.eng.chunk.0141.filtered
+filter_mrconso -sEN -p 1000 -t 327 mrconso.eng.chunk.0142 mrconso.eng.chunk.0142.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0143 mrconso.eng.chunk.0143.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0144 mrconso.eng.chunk.0144.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0145 mrconso.eng.chunk.0145.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0146 mrconso.eng.chunk.0146.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0147 mrconso.eng.chunk.0147.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0148 mrconso.eng.chunk.0148.filtered
+filter_mrconso -sEN -p 1000 -t 323 mrconso.eng.chunk.0149 mrconso.eng.chunk.0149.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0150 mrconso.eng.chunk.0150.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0151 mrconso.eng.chunk.0151.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0152 mrconso.eng.chunk.0152.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0153 mrconso.eng.chunk.0153.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0154 mrconso.eng.chunk.0154.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0155 mrconso.eng.chunk.0155.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0156 mrconso.eng.chunk.0156.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0157 mrconso.eng.chunk.0157.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0158 mrconso.eng.chunk.0158.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0159 mrconso.eng.chunk.0159.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0160 mrconso.eng.chunk.0160.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0161 mrconso.eng.chunk.0161.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0162 mrconso.eng.chunk.0162.filtered
+filter_mrconso -sEN -p 1000 -t 331 mrconso.eng.chunk.0163 mrconso.eng.chunk.0163.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0164 mrconso.eng.chunk.0164.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0165 mrconso.eng.chunk.0165.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0166 mrconso.eng.chunk.0166.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0167 mrconso.eng.chunk.0167.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0168 mrconso.eng.chunk.0168.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0169 mrconso.eng.chunk.0169.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0170 mrconso.eng.chunk.0170.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0171 mrconso.eng.chunk.0171.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0172 mrconso.eng.chunk.0172.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0173 mrconso.eng.chunk.0173.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0174 mrconso.eng.chunk.0174.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0175 mrconso.eng.chunk.0175.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0176 mrconso.eng.chunk.0176.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0177 mrconso.eng.chunk.0177.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0178 mrconso.eng.chunk.0178.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0179 mrconso.eng.chunk.0179.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0180 mrconso.eng.chunk.0180.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0181 mrconso.eng.chunk.0181.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0182 mrconso.eng.chunk.0182.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0183 mrconso.eng.chunk.0183.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0184 mrconso.eng.chunk.0184.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0185 mrconso.eng.chunk.0185.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0186 mrconso.eng.chunk.0186.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0187 mrconso.eng.chunk.0187.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0188 mrconso.eng.chunk.0188.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0189 mrconso.eng.chunk.0189.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0190 mrconso.eng.chunk.0190.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0191 mrconso.eng.chunk.0191.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0192 mrconso.eng.chunk.0192.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0193 mrconso.eng.chunk.0193.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0194 mrconso.eng.chunk.0194.filtered
+filter_mrconso -sEN -p 1000 -t 327 mrconso.eng.chunk.0195 mrconso.eng.chunk.0195.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0196 mrconso.eng.chunk.0196.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0197 mrconso.eng.chunk.0197.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0198 mrconso.eng.chunk.0198.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0199 mrconso.eng.chunk.0199.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0200 mrconso.eng.chunk.0200.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0201 mrconso.eng.chunk.0201.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0202 mrconso.eng.chunk.0202.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0203 mrconso.eng.chunk.0203.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0204 mrconso.eng.chunk.0204.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0205 mrconso.eng.chunk.0205.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0206 mrconso.eng.chunk.0206.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0207 mrconso.eng.chunk.0207.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0208 mrconso.eng.chunk.0208.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0209 mrconso.eng.chunk.0209.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0210 mrconso.eng.chunk.0210.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0211 mrconso.eng.chunk.0211.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0212 mrconso.eng.chunk.0212.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0213 mrconso.eng.chunk.0213.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0214 mrconso.eng.chunk.0214.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0215 mrconso.eng.chunk.0215.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0216 mrconso.eng.chunk.0216.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0217 mrconso.eng.chunk.0217.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0218 mrconso.eng.chunk.0218.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0219 mrconso.eng.chunk.0219.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0220 mrconso.eng.chunk.0220.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0221 mrconso.eng.chunk.0221.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0222 mrconso.eng.chunk.0222.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0223 mrconso.eng.chunk.0223.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0224 mrconso.eng.chunk.0224.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0225 mrconso.eng.chunk.0225.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0226 mrconso.eng.chunk.0226.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0227 mrconso.eng.chunk.0227.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0228 mrconso.eng.chunk.0228.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0229 mrconso.eng.chunk.0229.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0230 mrconso.eng.chunk.0230.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0231 mrconso.eng.chunk.0231.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0232 mrconso.eng.chunk.0232.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0233 mrconso.eng.chunk.0233.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0234 mrconso.eng.chunk.0234.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0235 mrconso.eng.chunk.0235.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0236 mrconso.eng.chunk.0236.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0237 mrconso.eng.chunk.0237.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0238 mrconso.eng.chunk.0238.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0239 mrconso.eng.chunk.0239.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0240 mrconso.eng.chunk.0240.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0241 mrconso.eng.chunk.0241.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0242 mrconso.eng.chunk.0242.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0243 mrconso.eng.chunk.0243.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0244 mrconso.eng.chunk.0244.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0245 mrconso.eng.chunk.0245.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0246 mrconso.eng.chunk.0246.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0247 mrconso.eng.chunk.0247.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0248 mrconso.eng.chunk.0248.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0249 mrconso.eng.chunk.0249.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0250 mrconso.eng.chunk.0250.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0251 mrconso.eng.chunk.0251.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0252 mrconso.eng.chunk.0252.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0253 mrconso.eng.chunk.0253.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0254 mrconso.eng.chunk.0254.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0255 mrconso.eng.chunk.0255.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0256 mrconso.eng.chunk.0256.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0257 mrconso.eng.chunk.0257.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0258 mrconso.eng.chunk.0258.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0259 mrconso.eng.chunk.0259.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0260 mrconso.eng.chunk.0260.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0261 mrconso.eng.chunk.0261.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0262 mrconso.eng.chunk.0262.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0263 mrconso.eng.chunk.0263.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0264 mrconso.eng.chunk.0264.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0265 mrconso.eng.chunk.0265.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0266 mrconso.eng.chunk.0266.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0267 mrconso.eng.chunk.0267.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0268 mrconso.eng.chunk.0268.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0269 mrconso.eng.chunk.0269.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0270 mrconso.eng.chunk.0270.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0271 mrconso.eng.chunk.0271.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0272 mrconso.eng.chunk.0272.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0273 mrconso.eng.chunk.0273.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0274 mrconso.eng.chunk.0274.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0275 mrconso.eng.chunk.0275.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0276 mrconso.eng.chunk.0276.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0277 mrconso.eng.chunk.0277.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0278 mrconso.eng.chunk.0278.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0279 mrconso.eng.chunk.0279.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0280 mrconso.eng.chunk.0280.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0281 mrconso.eng.chunk.0281.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0282 mrconso.eng.chunk.0282.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0283 mrconso.eng.chunk.0283.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0284 mrconso.eng.chunk.0284.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0285 mrconso.eng.chunk.0285.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0286 mrconso.eng.chunk.0286.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0287 mrconso.eng.chunk.0287.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0288 mrconso.eng.chunk.0288.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0289 mrconso.eng.chunk.0289.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0290 mrconso.eng.chunk.0290.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0291 mrconso.eng.chunk.0291.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0292 mrconso.eng.chunk.0292.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0293 mrconso.eng.chunk.0293.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0294 mrconso.eng.chunk.0294.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0295 mrconso.eng.chunk.0295.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0296 mrconso.eng.chunk.0296.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0297 mrconso.eng.chunk.0297.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0298 mrconso.eng.chunk.0298.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0299 mrconso.eng.chunk.0299.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0300 mrconso.eng.chunk.0300.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0301 mrconso.eng.chunk.0301.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0302 mrconso.eng.chunk.0302.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0303 mrconso.eng.chunk.0303.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0304 mrconso.eng.chunk.0304.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0305 mrconso.eng.chunk.0305.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0306 mrconso.eng.chunk.0306.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0307 mrconso.eng.chunk.0307.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0308 mrconso.eng.chunk.0308.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0309 mrconso.eng.chunk.0309.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0310 mrconso.eng.chunk.0310.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0311 mrconso.eng.chunk.0311.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0312 mrconso.eng.chunk.0312.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0313 mrconso.eng.chunk.0313.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0314 mrconso.eng.chunk.0314.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0315 mrconso.eng.chunk.0315.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0316 mrconso.eng.chunk.0316.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0317 mrconso.eng.chunk.0317.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0318 mrconso.eng.chunk.0318.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0319 mrconso.eng.chunk.0319.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0320 mrconso.eng.chunk.0320.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0321 mrconso.eng.chunk.0321.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0322 mrconso.eng.chunk.0322.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0323 mrconso.eng.chunk.0323.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0324 mrconso.eng.chunk.0324.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0325 mrconso.eng.chunk.0325.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0326 mrconso.eng.chunk.0326.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0327 mrconso.eng.chunk.0327.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0328 mrconso.eng.chunk.0328.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0329 mrconso.eng.chunk.0329.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0330 mrconso.eng.chunk.0330.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0331 mrconso.eng.chunk.0331.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0332 mrconso.eng.chunk.0332.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0333 mrconso.eng.chunk.0333.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0334 mrconso.eng.chunk.0334.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0335 mrconso.eng.chunk.0335.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0336 mrconso.eng.chunk.0336.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0337 mrconso.eng.chunk.0337.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0338 mrconso.eng.chunk.0338.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0339 mrconso.eng.chunk.0339.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0340 mrconso.eng.chunk.0340.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0341 mrconso.eng.chunk.0341.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0342 mrconso.eng.chunk.0342.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0343 mrconso.eng.chunk.0343.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0344 mrconso.eng.chunk.0344.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0345 mrconso.eng.chunk.0345.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0346 mrconso.eng.chunk.0346.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0347 mrconso.eng.chunk.0347.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0348 mrconso.eng.chunk.0348.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0349 mrconso.eng.chunk.0349.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0350 mrconso.eng.chunk.0350.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0351 mrconso.eng.chunk.0351.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0352 mrconso.eng.chunk.0352.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0353 mrconso.eng.chunk.0353.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0354 mrconso.eng.chunk.0354.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0355 mrconso.eng.chunk.0355.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0356 mrconso.eng.chunk.0356.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0357 mrconso.eng.chunk.0357.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0358 mrconso.eng.chunk.0358.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0359 mrconso.eng.chunk.0359.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0360 mrconso.eng.chunk.0360.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0361 mrconso.eng.chunk.0361.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0362 mrconso.eng.chunk.0362.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0363 mrconso.eng.chunk.0363.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0364 mrconso.eng.chunk.0364.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0365 mrconso.eng.chunk.0365.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0366 mrconso.eng.chunk.0366.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0367 mrconso.eng.chunk.0367.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0368 mrconso.eng.chunk.0368.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0369 mrconso.eng.chunk.0369.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0370 mrconso.eng.chunk.0370.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0371 mrconso.eng.chunk.0371.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0372 mrconso.eng.chunk.0372.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0373 mrconso.eng.chunk.0373.filtered
+filter_mrconso -sEN -p 1000 -t 333 mrconso.eng.chunk.0374 mrconso.eng.chunk.0374.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0375 mrconso.eng.chunk.0375.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0376 mrconso.eng.chunk.0376.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0377 mrconso.eng.chunk.0377.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0378 mrconso.eng.chunk.0378.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0379 mrconso.eng.chunk.0379.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0380 mrconso.eng.chunk.0380.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0381 mrconso.eng.chunk.0381.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0382 mrconso.eng.chunk.0382.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0383 mrconso.eng.chunk.0383.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0384 mrconso.eng.chunk.0384.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0385 mrconso.eng.chunk.0385.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0386 mrconso.eng.chunk.0386.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0387 mrconso.eng.chunk.0387.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0388 mrconso.eng.chunk.0388.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0389 mrconso.eng.chunk.0389.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0390 mrconso.eng.chunk.0390.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0391 mrconso.eng.chunk.0391.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0392 mrconso.eng.chunk.0392.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0393 mrconso.eng.chunk.0393.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0394 mrconso.eng.chunk.0394.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0395 mrconso.eng.chunk.0395.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0396 mrconso.eng.chunk.0396.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0397 mrconso.eng.chunk.0397.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0398 mrconso.eng.chunk.0398.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0399 mrconso.eng.chunk.0399.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0400 mrconso.eng.chunk.0400.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0401 mrconso.eng.chunk.0401.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0402 mrconso.eng.chunk.0402.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0403 mrconso.eng.chunk.0403.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0404 mrconso.eng.chunk.0404.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0405 mrconso.eng.chunk.0405.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0406 mrconso.eng.chunk.0406.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0407 mrconso.eng.chunk.0407.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0408 mrconso.eng.chunk.0408.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0409 mrconso.eng.chunk.0409.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0410 mrconso.eng.chunk.0410.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0411 mrconso.eng.chunk.0411.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0412 mrconso.eng.chunk.0412.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0413 mrconso.eng.chunk.0413.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0414 mrconso.eng.chunk.0414.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0415 mrconso.eng.chunk.0415.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0416 mrconso.eng.chunk.0416.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0417 mrconso.eng.chunk.0417.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0418 mrconso.eng.chunk.0418.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0419 mrconso.eng.chunk.0419.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0420 mrconso.eng.chunk.0420.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0421 mrconso.eng.chunk.0421.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0422 mrconso.eng.chunk.0422.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0423 mrconso.eng.chunk.0423.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0424 mrconso.eng.chunk.0424.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0425 mrconso.eng.chunk.0425.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0426 mrconso.eng.chunk.0426.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0427 mrconso.eng.chunk.0427.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0428 mrconso.eng.chunk.0428.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0429 mrconso.eng.chunk.0429.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0430 mrconso.eng.chunk.0430.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0431 mrconso.eng.chunk.0431.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0432 mrconso.eng.chunk.0432.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0433 mrconso.eng.chunk.0433.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0434 mrconso.eng.chunk.0434.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0435 mrconso.eng.chunk.0435.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0436 mrconso.eng.chunk.0436.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0437 mrconso.eng.chunk.0437.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0438 mrconso.eng.chunk.0438.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0439 mrconso.eng.chunk.0439.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0440 mrconso.eng.chunk.0440.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0441 mrconso.eng.chunk.0441.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0442 mrconso.eng.chunk.0442.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0443 mrconso.eng.chunk.0443.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0444 mrconso.eng.chunk.0444.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0445 mrconso.eng.chunk.0445.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0446 mrconso.eng.chunk.0446.filtered
+filter_mrconso -sEN -p 1000 -t 369 mrconso.eng.chunk.0447 mrconso.eng.chunk.0447.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0448 mrconso.eng.chunk.0448.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0449 mrconso.eng.chunk.0449.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0450 mrconso.eng.chunk.0450.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0451 mrconso.eng.chunk.0451.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0452 mrconso.eng.chunk.0452.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0453 mrconso.eng.chunk.0453.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0454 mrconso.eng.chunk.0454.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0455 mrconso.eng.chunk.0455.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0456 mrconso.eng.chunk.0456.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0457 mrconso.eng.chunk.0457.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0458 mrconso.eng.chunk.0458.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0459 mrconso.eng.chunk.0459.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0460 mrconso.eng.chunk.0460.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0461 mrconso.eng.chunk.0461.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0462 mrconso.eng.chunk.0462.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0463 mrconso.eng.chunk.0463.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0464 mrconso.eng.chunk.0464.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0465 mrconso.eng.chunk.0465.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0466 mrconso.eng.chunk.0466.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0467 mrconso.eng.chunk.0467.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0468 mrconso.eng.chunk.0468.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0469 mrconso.eng.chunk.0469.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0470 mrconso.eng.chunk.0470.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0471 mrconso.eng.chunk.0471.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0472 mrconso.eng.chunk.0472.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0473 mrconso.eng.chunk.0473.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0474 mrconso.eng.chunk.0474.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0475 mrconso.eng.chunk.0475.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0476 mrconso.eng.chunk.0476.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0477 mrconso.eng.chunk.0477.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0478 mrconso.eng.chunk.0478.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0479 mrconso.eng.chunk.0479.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0480 mrconso.eng.chunk.0480.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0481 mrconso.eng.chunk.0481.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0482 mrconso.eng.chunk.0482.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0483 mrconso.eng.chunk.0483.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0484 mrconso.eng.chunk.0484.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0485 mrconso.eng.chunk.0485.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0486 mrconso.eng.chunk.0486.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0487 mrconso.eng.chunk.0487.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0488 mrconso.eng.chunk.0488.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0489 mrconso.eng.chunk.0489.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0490 mrconso.eng.chunk.0490.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0491 mrconso.eng.chunk.0491.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0492 mrconso.eng.chunk.0492.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0493 mrconso.eng.chunk.0493.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0494 mrconso.eng.chunk.0494.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0495 mrconso.eng.chunk.0495.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0496 mrconso.eng.chunk.0496.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0497 mrconso.eng.chunk.0497.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0498 mrconso.eng.chunk.0498.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0499 mrconso.eng.chunk.0499.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0500 mrconso.eng.chunk.0500.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0501 mrconso.eng.chunk.0501.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0502 mrconso.eng.chunk.0502.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0503 mrconso.eng.chunk.0503.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0504 mrconso.eng.chunk.0504.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0505 mrconso.eng.chunk.0505.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0506 mrconso.eng.chunk.0506.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0507 mrconso.eng.chunk.0507.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0508 mrconso.eng.chunk.0508.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0509 mrconso.eng.chunk.0509.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0510 mrconso.eng.chunk.0510.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0511 mrconso.eng.chunk.0511.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0512 mrconso.eng.chunk.0512.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0513 mrconso.eng.chunk.0513.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0514 mrconso.eng.chunk.0514.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0515 mrconso.eng.chunk.0515.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0516 mrconso.eng.chunk.0516.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0517 mrconso.eng.chunk.0517.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0518 mrconso.eng.chunk.0518.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0519 mrconso.eng.chunk.0519.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0520 mrconso.eng.chunk.0520.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0521 mrconso.eng.chunk.0521.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0522 mrconso.eng.chunk.0522.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0523 mrconso.eng.chunk.0523.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0524 mrconso.eng.chunk.0524.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0525 mrconso.eng.chunk.0525.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0526 mrconso.eng.chunk.0526.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0527 mrconso.eng.chunk.0527.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0528 mrconso.eng.chunk.0528.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0529 mrconso.eng.chunk.0529.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0530 mrconso.eng.chunk.0530.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0531 mrconso.eng.chunk.0531.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0532 mrconso.eng.chunk.0532.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0533 mrconso.eng.chunk.0533.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0534 mrconso.eng.chunk.0534.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0535 mrconso.eng.chunk.0535.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0536 mrconso.eng.chunk.0536.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0537 mrconso.eng.chunk.0537.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0538 mrconso.eng.chunk.0538.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0539 mrconso.eng.chunk.0539.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0540 mrconso.eng.chunk.0540.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0541 mrconso.eng.chunk.0541.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0542 mrconso.eng.chunk.0542.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0543 mrconso.eng.chunk.0543.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0544 mrconso.eng.chunk.0544.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0545 mrconso.eng.chunk.0545.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0546 mrconso.eng.chunk.0546.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0547 mrconso.eng.chunk.0547.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0548 mrconso.eng.chunk.0548.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0549 mrconso.eng.chunk.0549.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0550 mrconso.eng.chunk.0550.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0551 mrconso.eng.chunk.0551.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0552 mrconso.eng.chunk.0552.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0553 mrconso.eng.chunk.0553.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0554 mrconso.eng.chunk.0554.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0555 mrconso.eng.chunk.0555.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0556 mrconso.eng.chunk.0556.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0557 mrconso.eng.chunk.0557.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0558 mrconso.eng.chunk.0558.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0559 mrconso.eng.chunk.0559.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0560 mrconso.eng.chunk.0560.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0561 mrconso.eng.chunk.0561.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0562 mrconso.eng.chunk.0562.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0563 mrconso.eng.chunk.0563.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0564 mrconso.eng.chunk.0564.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0565 mrconso.eng.chunk.0565.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0566 mrconso.eng.chunk.0566.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0567 mrconso.eng.chunk.0567.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0568 mrconso.eng.chunk.0568.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0569 mrconso.eng.chunk.0569.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0570 mrconso.eng.chunk.0570.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0571 mrconso.eng.chunk.0571.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0572 mrconso.eng.chunk.0572.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0573 mrconso.eng.chunk.0573.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0574 mrconso.eng.chunk.0574.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0575 mrconso.eng.chunk.0575.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0576 mrconso.eng.chunk.0576.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0577 mrconso.eng.chunk.0577.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0578 mrconso.eng.chunk.0578.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0579 mrconso.eng.chunk.0579.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0580 mrconso.eng.chunk.0580.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0581 mrconso.eng.chunk.0581.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0582 mrconso.eng.chunk.0582.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0583 mrconso.eng.chunk.0583.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0584 mrconso.eng.chunk.0584.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0585 mrconso.eng.chunk.0585.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0586 mrconso.eng.chunk.0586.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0587 mrconso.eng.chunk.0587.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0588 mrconso.eng.chunk.0588.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0589 mrconso.eng.chunk.0589.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0590 mrconso.eng.chunk.0590.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0591 mrconso.eng.chunk.0591.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0592 mrconso.eng.chunk.0592.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0593 mrconso.eng.chunk.0593.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0594 mrconso.eng.chunk.0594.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0595 mrconso.eng.chunk.0595.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0596 mrconso.eng.chunk.0596.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0597 mrconso.eng.chunk.0597.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0598 mrconso.eng.chunk.0598.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0599 mrconso.eng.chunk.0599.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0600 mrconso.eng.chunk.0600.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0601 mrconso.eng.chunk.0601.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0602 mrconso.eng.chunk.0602.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0603 mrconso.eng.chunk.0603.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0604 mrconso.eng.chunk.0604.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0605 mrconso.eng.chunk.0605.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0606 mrconso.eng.chunk.0606.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0607 mrconso.eng.chunk.0607.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0608 mrconso.eng.chunk.0608.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0609 mrconso.eng.chunk.0609.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0610 mrconso.eng.chunk.0610.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0611 mrconso.eng.chunk.0611.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0612 mrconso.eng.chunk.0612.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0613 mrconso.eng.chunk.0613.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0614 mrconso.eng.chunk.0614.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0615 mrconso.eng.chunk.0615.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0616 mrconso.eng.chunk.0616.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0617 mrconso.eng.chunk.0617.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0618 mrconso.eng.chunk.0618.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0619 mrconso.eng.chunk.0619.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0620 mrconso.eng.chunk.0620.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0621 mrconso.eng.chunk.0621.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0622 mrconso.eng.chunk.0622.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0623 mrconso.eng.chunk.0623.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0624 mrconso.eng.chunk.0624.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0625 mrconso.eng.chunk.0625.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0626 mrconso.eng.chunk.0626.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0627 mrconso.eng.chunk.0627.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0628 mrconso.eng.chunk.0628.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0629 mrconso.eng.chunk.0629.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0630 mrconso.eng.chunk.0630.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0631 mrconso.eng.chunk.0631.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0632 mrconso.eng.chunk.0632.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0633 mrconso.eng.chunk.0633.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0634 mrconso.eng.chunk.0634.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0635 mrconso.eng.chunk.0635.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0636 mrconso.eng.chunk.0636.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0637 mrconso.eng.chunk.0637.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0638 mrconso.eng.chunk.0638.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0639 mrconso.eng.chunk.0639.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0640 mrconso.eng.chunk.0640.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0641 mrconso.eng.chunk.0641.filtered
+filter_mrconso -sEN -p 1000 -t 328 mrconso.eng.chunk.0642 mrconso.eng.chunk.0642.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0643 mrconso.eng.chunk.0643.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0644 mrconso.eng.chunk.0644.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0645 mrconso.eng.chunk.0645.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0646 mrconso.eng.chunk.0646.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0647 mrconso.eng.chunk.0647.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0648 mrconso.eng.chunk.0648.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0649 mrconso.eng.chunk.0649.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0650 mrconso.eng.chunk.0650.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0651 mrconso.eng.chunk.0651.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0652 mrconso.eng.chunk.0652.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0653 mrconso.eng.chunk.0653.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0654 mrconso.eng.chunk.0654.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0655 mrconso.eng.chunk.0655.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0656 mrconso.eng.chunk.0656.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0657 mrconso.eng.chunk.0657.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0658 mrconso.eng.chunk.0658.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0659 mrconso.eng.chunk.0659.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0660 mrconso.eng.chunk.0660.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0661 mrconso.eng.chunk.0661.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0662 mrconso.eng.chunk.0662.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0663 mrconso.eng.chunk.0663.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0664 mrconso.eng.chunk.0664.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0665 mrconso.eng.chunk.0665.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0666 mrconso.eng.chunk.0666.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0667 mrconso.eng.chunk.0667.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0668 mrconso.eng.chunk.0668.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0669 mrconso.eng.chunk.0669.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0670 mrconso.eng.chunk.0670.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0671 mrconso.eng.chunk.0671.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0672 mrconso.eng.chunk.0672.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0673 mrconso.eng.chunk.0673.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0674 mrconso.eng.chunk.0674.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0675 mrconso.eng.chunk.0675.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0676 mrconso.eng.chunk.0676.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0677 mrconso.eng.chunk.0677.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0678 mrconso.eng.chunk.0678.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0679 mrconso.eng.chunk.0679.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0680 mrconso.eng.chunk.0680.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0681 mrconso.eng.chunk.0681.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0682 mrconso.eng.chunk.0682.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0683 mrconso.eng.chunk.0683.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0684 mrconso.eng.chunk.0684.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0685 mrconso.eng.chunk.0685.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0686 mrconso.eng.chunk.0686.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0687 mrconso.eng.chunk.0687.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0688 mrconso.eng.chunk.0688.filtered
+filter_mrconso -sEN -p 1000 -t 323 mrconso.eng.chunk.0689 mrconso.eng.chunk.0689.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0690 mrconso.eng.chunk.0690.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0691 mrconso.eng.chunk.0691.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0692 mrconso.eng.chunk.0692.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0693 mrconso.eng.chunk.0693.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0694 mrconso.eng.chunk.0694.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0695 mrconso.eng.chunk.0695.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0696 mrconso.eng.chunk.0696.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0697 mrconso.eng.chunk.0697.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0698 mrconso.eng.chunk.0698.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0699 mrconso.eng.chunk.0699.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0700 mrconso.eng.chunk.0700.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0701 mrconso.eng.chunk.0701.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0702 mrconso.eng.chunk.0702.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0703 mrconso.eng.chunk.0703.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0704 mrconso.eng.chunk.0704.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0705 mrconso.eng.chunk.0705.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0706 mrconso.eng.chunk.0706.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0707 mrconso.eng.chunk.0707.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0708 mrconso.eng.chunk.0708.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0709 mrconso.eng.chunk.0709.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0710 mrconso.eng.chunk.0710.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0711 mrconso.eng.chunk.0711.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0712 mrconso.eng.chunk.0712.filtered
+filter_mrconso -sEN -p 1000 -t 326 mrconso.eng.chunk.0713 mrconso.eng.chunk.0713.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0714 mrconso.eng.chunk.0714.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0715 mrconso.eng.chunk.0715.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0716 mrconso.eng.chunk.0716.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0717 mrconso.eng.chunk.0717.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0718 mrconso.eng.chunk.0718.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0719 mrconso.eng.chunk.0719.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0720 mrconso.eng.chunk.0720.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0721 mrconso.eng.chunk.0721.filtered
+filter_mrconso -sEN -p 1000 -t 326 mrconso.eng.chunk.0722 mrconso.eng.chunk.0722.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0723 mrconso.eng.chunk.0723.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0724 mrconso.eng.chunk.0724.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0725 mrconso.eng.chunk.0725.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0726 mrconso.eng.chunk.0726.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0727 mrconso.eng.chunk.0727.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0728 mrconso.eng.chunk.0728.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0729 mrconso.eng.chunk.0729.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0730 mrconso.eng.chunk.0730.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0731 mrconso.eng.chunk.0731.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0732 mrconso.eng.chunk.0732.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0733 mrconso.eng.chunk.0733.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0734 mrconso.eng.chunk.0734.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0735 mrconso.eng.chunk.0735.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0736 mrconso.eng.chunk.0736.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0737 mrconso.eng.chunk.0737.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0738 mrconso.eng.chunk.0738.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0739 mrconso.eng.chunk.0739.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0740 mrconso.eng.chunk.0740.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0741 mrconso.eng.chunk.0741.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0742 mrconso.eng.chunk.0742.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0743 mrconso.eng.chunk.0743.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0744 mrconso.eng.chunk.0744.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0745 mrconso.eng.chunk.0745.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0746 mrconso.eng.chunk.0746.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0747 mrconso.eng.chunk.0747.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0748 mrconso.eng.chunk.0748.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0749 mrconso.eng.chunk.0749.filtered
+filter_mrconso -sEN -p 1000 -t 322 mrconso.eng.chunk.0750 mrconso.eng.chunk.0750.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0751 mrconso.eng.chunk.0751.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0752 mrconso.eng.chunk.0752.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0753 mrconso.eng.chunk.0753.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0754 mrconso.eng.chunk.0754.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0755 mrconso.eng.chunk.0755.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0756 mrconso.eng.chunk.0756.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0757 mrconso.eng.chunk.0757.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0758 mrconso.eng.chunk.0758.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0759 mrconso.eng.chunk.0759.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0760 mrconso.eng.chunk.0760.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0761 mrconso.eng.chunk.0761.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0762 mrconso.eng.chunk.0762.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0763 mrconso.eng.chunk.0763.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0764 mrconso.eng.chunk.0764.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0765 mrconso.eng.chunk.0765.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0766 mrconso.eng.chunk.0766.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0767 mrconso.eng.chunk.0767.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0768 mrconso.eng.chunk.0768.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0769 mrconso.eng.chunk.0769.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0770 mrconso.eng.chunk.0770.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0771 mrconso.eng.chunk.0771.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0772 mrconso.eng.chunk.0772.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0773 mrconso.eng.chunk.0773.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0774 mrconso.eng.chunk.0774.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0775 mrconso.eng.chunk.0775.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0776 mrconso.eng.chunk.0776.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0777 mrconso.eng.chunk.0777.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0778 mrconso.eng.chunk.0778.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0779 mrconso.eng.chunk.0779.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0780 mrconso.eng.chunk.0780.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0781 mrconso.eng.chunk.0781.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0782 mrconso.eng.chunk.0782.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0783 mrconso.eng.chunk.0783.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0784 mrconso.eng.chunk.0784.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0785 mrconso.eng.chunk.0785.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0786 mrconso.eng.chunk.0786.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0787 mrconso.eng.chunk.0787.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0788 mrconso.eng.chunk.0788.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0789 mrconso.eng.chunk.0789.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0790 mrconso.eng.chunk.0790.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0791 mrconso.eng.chunk.0791.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0792 mrconso.eng.chunk.0792.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0793 mrconso.eng.chunk.0793.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0794 mrconso.eng.chunk.0794.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0795 mrconso.eng.chunk.0795.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0796 mrconso.eng.chunk.0796.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0797 mrconso.eng.chunk.0797.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0798 mrconso.eng.chunk.0798.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0799 mrconso.eng.chunk.0799.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0800 mrconso.eng.chunk.0800.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0801 mrconso.eng.chunk.0801.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0802 mrconso.eng.chunk.0802.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0803 mrconso.eng.chunk.0803.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0804 mrconso.eng.chunk.0804.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0805 mrconso.eng.chunk.0805.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0806 mrconso.eng.chunk.0806.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0807 mrconso.eng.chunk.0807.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0808 mrconso.eng.chunk.0808.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0809 mrconso.eng.chunk.0809.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0810 mrconso.eng.chunk.0810.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0811 mrconso.eng.chunk.0811.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0812 mrconso.eng.chunk.0812.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0813 mrconso.eng.chunk.0813.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0814 mrconso.eng.chunk.0814.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0815 mrconso.eng.chunk.0815.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0816 mrconso.eng.chunk.0816.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0817 mrconso.eng.chunk.0817.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0818 mrconso.eng.chunk.0818.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0819 mrconso.eng.chunk.0819.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0820 mrconso.eng.chunk.0820.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0821 mrconso.eng.chunk.0821.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0822 mrconso.eng.chunk.0822.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0823 mrconso.eng.chunk.0823.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0824 mrconso.eng.chunk.0824.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0825 mrconso.eng.chunk.0825.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0826 mrconso.eng.chunk.0826.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0827 mrconso.eng.chunk.0827.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0828 mrconso.eng.chunk.0828.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0829 mrconso.eng.chunk.0829.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0830 mrconso.eng.chunk.0830.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0831 mrconso.eng.chunk.0831.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0832 mrconso.eng.chunk.0832.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0833 mrconso.eng.chunk.0833.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0834 mrconso.eng.chunk.0834.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0835 mrconso.eng.chunk.0835.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0836 mrconso.eng.chunk.0836.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0837 mrconso.eng.chunk.0837.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0838 mrconso.eng.chunk.0838.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0839 mrconso.eng.chunk.0839.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0840 mrconso.eng.chunk.0840.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0841 mrconso.eng.chunk.0841.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0842 mrconso.eng.chunk.0842.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0843 mrconso.eng.chunk.0843.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0844 mrconso.eng.chunk.0844.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0845 mrconso.eng.chunk.0845.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0846 mrconso.eng.chunk.0846.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0847 mrconso.eng.chunk.0847.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0848 mrconso.eng.chunk.0848.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0849 mrconso.eng.chunk.0849.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0850 mrconso.eng.chunk.0850.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0851 mrconso.eng.chunk.0851.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0852 mrconso.eng.chunk.0852.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0853 mrconso.eng.chunk.0853.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0854 mrconso.eng.chunk.0854.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0855 mrconso.eng.chunk.0855.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0856 mrconso.eng.chunk.0856.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0857 mrconso.eng.chunk.0857.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0858 mrconso.eng.chunk.0858.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0859 mrconso.eng.chunk.0859.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0860 mrconso.eng.chunk.0860.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0861 mrconso.eng.chunk.0861.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0862 mrconso.eng.chunk.0862.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0863 mrconso.eng.chunk.0863.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0864 mrconso.eng.chunk.0864.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0865 mrconso.eng.chunk.0865.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0866 mrconso.eng.chunk.0866.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0867 mrconso.eng.chunk.0867.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0868 mrconso.eng.chunk.0868.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0869 mrconso.eng.chunk.0869.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0870 mrconso.eng.chunk.0870.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0871 mrconso.eng.chunk.0871.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0872 mrconso.eng.chunk.0872.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0873 mrconso.eng.chunk.0873.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0874 mrconso.eng.chunk.0874.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0875 mrconso.eng.chunk.0875.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0876 mrconso.eng.chunk.0876.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0877 mrconso.eng.chunk.0877.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0878 mrconso.eng.chunk.0878.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0879 mrconso.eng.chunk.0879.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0880 mrconso.eng.chunk.0880.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0881 mrconso.eng.chunk.0881.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0882 mrconso.eng.chunk.0882.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0883 mrconso.eng.chunk.0883.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0884 mrconso.eng.chunk.0884.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0885 mrconso.eng.chunk.0885.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0886 mrconso.eng.chunk.0886.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0887 mrconso.eng.chunk.0887.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0888 mrconso.eng.chunk.0888.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0889 mrconso.eng.chunk.0889.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0890 mrconso.eng.chunk.0890.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0891 mrconso.eng.chunk.0891.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0892 mrconso.eng.chunk.0892.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0893 mrconso.eng.chunk.0893.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0894 mrconso.eng.chunk.0894.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0895 mrconso.eng.chunk.0895.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0896 mrconso.eng.chunk.0896.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0897 mrconso.eng.chunk.0897.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0898 mrconso.eng.chunk.0898.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0899 mrconso.eng.chunk.0899.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0900 mrconso.eng.chunk.0900.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0901 mrconso.eng.chunk.0901.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0902 mrconso.eng.chunk.0902.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0903 mrconso.eng.chunk.0903.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0904 mrconso.eng.chunk.0904.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0905 mrconso.eng.chunk.0905.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0906 mrconso.eng.chunk.0906.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0907 mrconso.eng.chunk.0907.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0908 mrconso.eng.chunk.0908.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0909 mrconso.eng.chunk.0909.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0910 mrconso.eng.chunk.0910.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0911 mrconso.eng.chunk.0911.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0912 mrconso.eng.chunk.0912.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0913 mrconso.eng.chunk.0913.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0914 mrconso.eng.chunk.0914.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0915 mrconso.eng.chunk.0915.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0916 mrconso.eng.chunk.0916.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0917 mrconso.eng.chunk.0917.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0918 mrconso.eng.chunk.0918.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0919 mrconso.eng.chunk.0919.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0920 mrconso.eng.chunk.0920.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0921 mrconso.eng.chunk.0921.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0922 mrconso.eng.chunk.0922.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0923 mrconso.eng.chunk.0923.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0924 mrconso.eng.chunk.0924.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0925 mrconso.eng.chunk.0925.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0926 mrconso.eng.chunk.0926.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0927 mrconso.eng.chunk.0927.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0928 mrconso.eng.chunk.0928.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0929 mrconso.eng.chunk.0929.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0930 mrconso.eng.chunk.0930.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0931 mrconso.eng.chunk.0931.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0932 mrconso.eng.chunk.0932.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0933 mrconso.eng.chunk.0933.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0934 mrconso.eng.chunk.0934.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0935 mrconso.eng.chunk.0935.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0936 mrconso.eng.chunk.0936.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0937 mrconso.eng.chunk.0937.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0938 mrconso.eng.chunk.0938.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0939 mrconso.eng.chunk.0939.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0940 mrconso.eng.chunk.0940.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0941 mrconso.eng.chunk.0941.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0942 mrconso.eng.chunk.0942.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0943 mrconso.eng.chunk.0943.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0944 mrconso.eng.chunk.0944.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0945 mrconso.eng.chunk.0945.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0946 mrconso.eng.chunk.0946.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0947 mrconso.eng.chunk.0947.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0948 mrconso.eng.chunk.0948.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0949 mrconso.eng.chunk.0949.filtered
+filter_mrconso -sEN -p 1000 -t 324 mrconso.eng.chunk.0950 mrconso.eng.chunk.0950.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0951 mrconso.eng.chunk.0951.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0952 mrconso.eng.chunk.0952.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0953 mrconso.eng.chunk.0953.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0954 mrconso.eng.chunk.0954.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0955 mrconso.eng.chunk.0955.filtered
+filter_mrconso -sEN -p 1000 -t 319 mrconso.eng.chunk.0956 mrconso.eng.chunk.0956.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0957 mrconso.eng.chunk.0957.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0958 mrconso.eng.chunk.0958.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0959 mrconso.eng.chunk.0959.filtered
+filter_mrconso -sEN -p 1000 -t 320 mrconso.eng.chunk.0960 mrconso.eng.chunk.0960.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0961 mrconso.eng.chunk.0961.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0962 mrconso.eng.chunk.0962.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0963 mrconso.eng.chunk.0963.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0964 mrconso.eng.chunk.0964.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0965 mrconso.eng.chunk.0965.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0966 mrconso.eng.chunk.0966.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0967 mrconso.eng.chunk.0967.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0968 mrconso.eng.chunk.0968.filtered
+filter_mrconso -sEN -p 1000 -t 325 mrconso.eng.chunk.0969 mrconso.eng.chunk.0969.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0970 mrconso.eng.chunk.0970.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0971 mrconso.eng.chunk.0971.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0972 mrconso.eng.chunk.0972.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0973 mrconso.eng.chunk.0973.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0974 mrconso.eng.chunk.0974.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0975 mrconso.eng.chunk.0975.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0976 mrconso.eng.chunk.0976.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0977 mrconso.eng.chunk.0977.filtered
+filter_mrconso -sEN -p 1000 -t 323 mrconso.eng.chunk.0978 mrconso.eng.chunk.0978.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0979 mrconso.eng.chunk.0979.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0980 mrconso.eng.chunk.0980.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0981 mrconso.eng.chunk.0981.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0982 mrconso.eng.chunk.0982.filtered
+filter_mrconso -sEN -p 1000 -t 321 mrconso.eng.chunk.0983 mrconso.eng.chunk.0983.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0984 mrconso.eng.chunk.0984.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0985 mrconso.eng.chunk.0985.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0986 mrconso.eng.chunk.0986.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0987 mrconso.eng.chunk.0987.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0988 mrconso.eng.chunk.0988.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0989 mrconso.eng.chunk.0989.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0990 mrconso.eng.chunk.0990.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0991 mrconso.eng.chunk.0991.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0992 mrconso.eng.chunk.0992.filtered
+filter_mrconso -sEN -p 1000 -t 317 mrconso.eng.chunk.0993 mrconso.eng.chunk.0993.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0994 mrconso.eng.chunk.0994.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0995 mrconso.eng.chunk.0995.filtered
+filter_mrconso -sEN -p 1000 -t 318 mrconso.eng.chunk.0996 mrconso.eng.chunk.0996.filtered
+filter_mrconso -sEN -p 1000 -t 316 mrconso.eng.chunk.0997 mrconso.eng.chunk.0997.filtered
+filter_mrconso -sEN -p 1000 -t 73 mrconso.eng.chunk.0998 mrconso.eng.chunk.0998.filtered
+Tue Jul 20 16:27:00 -03 2021
+Tue Jul 20 16:27:00 -03 2021
+Now assembling final version of mrconso.eng.chunked.filtered
+extracting "yn" lines from individual filtered lines
+extracting "i" lines from individual filtered lines
+consolidating "i" lines
+Tue Jul 20 16:27:00 -03 2021
+DONE
+Tue Jul 20 16:27:00 -03 2021
+Doing sanity check...hang on...
+316231 lines in mrconso.eng
+0 yn lines in mrconso.eng.strict.0
+These two should match
+316231 and 0 do NOT match
+About to run 04FilterStrictCheck
+Pay close attention to the output of this script
+Tue Jul 20 16:27:02 -03 2021
+mrconso.eng.chunk.[0-9][0-9][0-9][0-9] 0
+files with errors:
+mrconso.eng.chunk.[0-9][0-9][0-9][0-9]
+
+run the command
+cd Filter/ALLFILES.strict
+source ../../../dfbuilder.profile
+./filter_mrconso_ALL -sEN 1000 mrconso.eng.chunk.[0-9][0-9][0-9][0-9]
+and then run 04FilterStrictCheck
+DONE

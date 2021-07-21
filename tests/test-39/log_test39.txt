@@ -1,0 +1,144 @@
+ter 20 jul 2021 22:49:11 -03
+total 370492
+33559888 lrwxrwxrwx 1 lperciliano lperciliano         9 jul 16 15:56 * -> ../2016/*
+33559280 drwxr-xr-x 2 lperciliano lperciliano      4096 jul 16 15:56 .
+33559279 drwxr-xr-x 3 lperciliano lperciliano      4096 jun  2 15:20 ..
+33559287 -rw-r--r-- 1 lperciliano lperciliano 125457383 jul 21  2020 inflVars.data.ascii
+33559288 -rw-r--r-- 1 lperciliano lperciliano 235722838 abr 14 16:57 MRCONSO.mesh
+33559284 -rw-r--r-- 1 lperciliano lperciliano      1192 abr 14 16:57 MRRANK.RRF
+33559285 -rw-r--r-- 1 lperciliano lperciliano    146890 abr 14 16:57 MRSAB.RRF
+33559286 -rw-r--r-- 1 lperciliano lperciliano  16324034 abr  8 06:00 SM.DB
+33559281 -rw-r--r-- 1 lperciliano lperciliano       618 jun  2 15:05 specialterms.txt
+33559282 -rw-r--r-- 1 lperciliano lperciliano      3062 jun  2 15:05 st.raw
+33559283 -rw-r--r-- 1 lperciliano lperciliano   1702825 jun  2 15:05 suppressibles.txt
+LVG_2016=/home/lperciliano/Metamap-2021/lvg2016/
+total 696
+33558598 drwxr-xr-x 13 lperciliano lperciliano   4096 jul 20 16:05 .
+33554439 drwxrwxr-x  5 lperciliano lperciliano   4096 jun 26 20:14 ..
+33559891 -rwxrwxr-x  1 lperciliano lperciliano   4472 jul 17 10:31 01CreateWorkFiles
+33558599 drwxr-xr-x  2 lperciliano lperciliano   4096 jun 26 19:39 bin
+33559278 drwxr-xr-x  3 lperciliano lperciliano   4096 jun  1 10:24 data
+33559370 -rw-r--r--  1 lperciliano lperciliano 142598 jun  7 13:28 datafilebuilder.pdf
+33559886 -rw-rw-r--  1 lperciliano lperciliano    407 jul 20 16:14 .datafilesrc
+33559887 -rw-rw-r--  1 lperciliano lperciliano    407 jul 20 16:14 .datafilesrc.UMLS_PORTUGUES
+33558681 drwxr-xr-x  2 lperciliano lperciliano   4096 jul 20 15:59 DB
+33559371 -rw-rw-r--  1 lperciliano lperciliano   3333 jun 26 19:39 install.log
+33558668 drwxr-xr-x  4 lperciliano lperciliano   4096 mai 11  2020 lexicon
+33558667 drwxr-xr-x  2 lperciliano lperciliano   4096 jun 10 14:24 lib
+33558682 -rw-rw-r--  1 lperciliano lperciliano      0 jul 20 16:05 log_test39.txt
+33559076 drwxr-xr-x  9 lperciliano lperciliano   4096 mai 12  2020 MedPost-SKR
+33559367 -rw-r--r--  1 lperciliano lperciliano  61666 mai 28 15:18 MM_2011_v2_ReleaseNotes.pdf
+33559365 -rw-r--r--  1 lperciliano lperciliano   2598 mai 28 12:43 MMTermsConditions.txt
+33559364 -rw-r--r--  1 lperciliano lperciliano   8777 mai 28 15:18 public_mm_additional_models.html
+33559366 -rw-r--r--  1 lperciliano lperciliano  34977 mai 28 15:18 public_mm_additional_models.pdf
+33559369 -rw-r--r--  1 lperciliano lperciliano  14592 mai 28 15:16 README_dfb.html
+33559368 -rw-r--r--  1 lperciliano lperciliano 134126 mai 28 15:16 README_dfb.pdf
+33559074 -rw-r--r--  1 lperciliano lperciliano  18085 mai 28 12:43 README.html
+33559075 -rw-r--r--  1 lperciliano lperciliano 203026 mai 28 12:43 README.pdf
+33559068 drwxr-xr-x  2 lperciliano lperciliano   4096 jun  1 10:24 resources
+33559295 drwxr-xr-x  4 lperciliano lperciliano   4096 jun  1 10:24 scripts
+33559363 drwxr-xr-x  3 lperciliano lperciliano   4096 jun 26 20:26 sourceData
+33558750 drwxr-xr-x  2 lperciliano lperciliano   4096 jun 26 19:39 TestSuite
+33558847 drwxr-xr-x  9 lperciliano lperciliano   4096 jun 26 19:39 WSD_Server
+total 5073320
+33559398 drwx------  8 lperciliano lperciliano       4096 jun 26 20:03 .
+33554439 drwxrwxr-x  5 lperciliano lperciliano       4096 jun 26 20:14 ..
+33817272 drwxrwxr-x  4 lperciliano lperciliano       4096 jun 26 20:14 2021AA
+33559399 -rw-------  1 lperciliano lperciliano 2081482322 mai  3 06:00 2021aa-1-meta.nlm
+33559400 -rw-------  1 lperciliano lperciliano 1555422830 mai  3 06:00 2021aa-2-meta.nlm
+33559404 -rw-------  1 lperciliano lperciliano        211 mai  3 06:00 2021AA.CHK
+33559406 -rw-------  1 lperciliano lperciliano        343 mai  3 06:00 2021AA.MD5
+33559401 -rw-------  1 lperciliano lperciliano 1159092419 mai  3 06:00 2021aa-otherks.nlm
+33559880 -rw-------  1 lperciliano lperciliano         23 mai  3 06:00 Autorun.inf
+33559397 -rw-r--r--  1 lperciliano lperciliano        830 mai  3 06:00 boot.properties
+33559407 drwxr-xr-x  5 lperciliano lperciliano       4096 mai  3 06:00 config
+33559403 -rw-------  1 lperciliano lperciliano       9539 mai  3 06:00 Copyright_Notice.txt
+33559595 drwxr-xr-x  2 lperciliano lperciliano       4096 mai  3 06:00 etc
+33559600 drwxrwxrwx  6 lperciliano lperciliano       4096 mai  3 06:00 jre
+33686380 drwxr-xr-x  2 lperciliano lperciliano       4096 mai  3 06:00 lib
+33559873 -rw-r--r--  1 lperciliano lperciliano        794 mai  3 06:00 log4j.properties
+33559405 -rw-------  1 lperciliano lperciliano  398960093 mai  3 06:00 mmsys.zip
+33686385 drwxr-xr-x 18 lperciliano lperciliano       4096 mai  3 06:00 plugins
+33559402 -rw-------  1 lperciliano lperciliano       7382 mai  3 06:00 README.txt
+33559874 -rw-------  1 lperciliano lperciliano        300 mai  3 06:00 release.dat
+33559876 -rwxrwxr-x  1 lperciliano lperciliano        547 mai  3 06:00 run64.bat
+33559875 -rwxrwxr-x  1 lperciliano lperciliano        545 mai  3 06:00 run.bat
+33559877 -rwxrwxr-x  1 lperciliano lperciliano        540 mai  3 06:00 run_linux.sh
+33559878 -rwxrwxr-x  1 lperciliano lperciliano        858 mai  3 06:00 run_mac.command
+33559879 -rwxrwxr-x  1 lperciliano lperciliano        858 mai  3 06:00 run_mac.sh
+total 370492
+33559888 lrwxrwxrwx 1 lperciliano lperciliano         9 jul 16 15:56 * -> ../2016/*
+33559280 drwxr-xr-x 2 lperciliano lperciliano      4096 jul 16 15:56 .
+33559279 drwxr-xr-x 3 lperciliano lperciliano      4096 jun  2 15:20 ..
+33559287 -rw-r--r-- 1 lperciliano lperciliano 125457383 jul 21  2020 inflVars.data.ascii
+33559288 -rw-r--r-- 1 lperciliano lperciliano 235722838 abr 14 16:57 MRCONSO.mesh
+33559284 -rw-r--r-- 1 lperciliano lperciliano      1192 abr 14 16:57 MRRANK.RRF
+33559285 -rw-r--r-- 1 lperciliano lperciliano    146890 abr 14 16:57 MRSAB.RRF
+33559286 -rw-r--r-- 1 lperciliano lperciliano  16324034 abr  8 06:00 SM.DB
+33559281 -rw-r--r-- 1 lperciliano lperciliano       618 jun  2 15:05 specialterms.txt
+33559282 -rw-r--r-- 1 lperciliano lperciliano      3062 jun  2 15:05 st.raw
+33559283 -rw-r--r-- 1 lperciliano lperciliano   1702825 jun  2 15:05 suppressibles.txt
+/home/lperciliano/Metamap-2021
+ter 20 jul 2021 23:01:31 -03
+total 696
+33558598 drwxr-xr-x 13 lperciliano lperciliano   4096 jul 20 23:00 .
+33554439 drwxrwxr-x  5 lperciliano lperciliano   4096 jun 26 20:14 ..
+33559891 -rwxrwxr-x  1 lperciliano lperciliano   4472 jul 17 10:31 01CreateWorkFiles
+33558599 drwxr-xr-x  2 lperciliano lperciliano   4096 jun 26 19:39 bin
+33559278 drwxr-xr-x  3 lperciliano lperciliano   4096 jun  1 10:24 data
+33559370 -rw-r--r--  1 lperciliano lperciliano 142598 jun  7 13:28 datafilebuilder.pdf
+33559886 -rw-rw-r--  1 lperciliano lperciliano    407 jul 20 16:14 .datafilesrc
+33559887 -rw-rw-r--  1 lperciliano lperciliano    407 jul 20 16:14 .datafilesrc.UMLS_PORTUGUES
+33558681 drwxr-xr-x  2 lperciliano lperciliano   4096 jul 20 15:59 DB
+33559371 -rw-rw-r--  1 lperciliano lperciliano   3333 jun 26 19:39 install.log
+33558668 drwxr-xr-x  4 lperciliano lperciliano   4096 mai 11  2020 lexicon
+33558667 drwxr-xr-x  2 lperciliano lperciliano   4096 jun 10 14:24 lib
+33559076 drwxr-xr-x  9 lperciliano lperciliano   4096 mai 12  2020 MedPost-SKR
+33559367 -rw-r--r--  1 lperciliano lperciliano  61666 mai 28 15:18 MM_2011_v2_ReleaseNotes.pdf
+33559365 -rw-r--r--  1 lperciliano lperciliano   2598 mai 28 12:43 MMTermsConditions.txt
+33559364 -rw-r--r--  1 lperciliano lperciliano   8777 mai 28 15:18 public_mm_additional_models.html
+33559366 -rw-r--r--  1 lperciliano lperciliano  34977 mai 28 15:18 public_mm_additional_models.pdf
+33559369 -rw-r--r--  1 lperciliano lperciliano  14592 mai 28 15:16 README_dfb.html
+33559368 -rw-r--r--  1 lperciliano lperciliano 134126 mai 28 15:16 README_dfb.pdf
+33559074 -rw-r--r--  1 lperciliano lperciliano  18085 mai 28 12:43 README.html
+33559075 -rw-r--r--  1 lperciliano lperciliano 203026 mai 28 12:43 README.pdf
+33559068 drwxr-xr-x  2 lperciliano lperciliano   4096 jun  1 10:24 resources
+33559295 drwxr-xr-x  4 lperciliano lperciliano   4096 jun  1 10:24 scripts
+33559363 drwxr-xr-x  3 lperciliano lperciliano   4096 jun 26 20:26 sourceData
+33558750 drwxr-xr-x  2 lperciliano lperciliano   4096 jun 26 19:39 TestSuite
+33558847 drwxr-xr-x  9 lperciliano lperciliano   4096 jun 26 19:39 WSD_Server
+$Starting skrmedpostctl: 
+started.
+Perci, Enter workspace name (DataVersionName)[default is Custom]:
+Workspace will be placed in /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES, is this okay? [yes]:
+
+MetaMap Data Sets:
+Use which Data Set directory? [default: 0) ]
+ has been selected.
+
+base directory DB/DB...base for  is missing.
+
+MetaMap Lexicons:
+1) /home/lperciliano/Metamap-2021/public_mm/lexicon/data/lexiconStatic2020
+Use which Lexicon file? [default: 1) /home/lperciliano/Metamap-2021/public_mm/lexicon/data/lexiconStatic2020]
+/home/lperciliano/Metamap-2021/public_mm/lexicon/data/lexiconStatic2020 has been selected.
+DFB Resources:
+1) /home/lperciliano/Metamap-2021/public_mm/data/dfbuilder/2021
+
+Use which dfbuilder resource directory? [default: 1) /home/lperciliano/Metamap-2021/public_mm/data/dfbuilder/2021]
+/home/lperciliano/Metamap-2021/public_mm/data/dfbuilder/2021 has been selected.
+
+Enter Knowledge Source year (<4 digit year>)[default is ]:
+Enter Knowledge Source Release (<2 letters> (usually: AA or AB)[default is ]:
+ 
+  This script builds the workspace and 
+  creates links to some of your source files.
+ 
+     Creating /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/01metawordindex/...
+     Preparing workspace...
+done.
+ 
+ To begin creating data files: 
+     Go to /home/lperciliano/Metamap-2021/public_mm/sourceData/UMLS_PORTUGUES/01metawordindex
+ Perci -->    Start the first script: 01CreateWorkFiles
+ 

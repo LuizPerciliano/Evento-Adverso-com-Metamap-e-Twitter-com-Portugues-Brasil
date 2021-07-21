@@ -1,0 +1,141 @@
+#! /bin/bash
+
+# Resources: 
+#   MRCONSO.RRF
+# Products:
+#   mrconso.eng.0
+#   mrconso.<field> where <field> is one of the following:
+#      LAT TS LUI STT SUI ISPREF AUI SAUI SCUI SDUI SAB TTY CODE STR SRL SUPPRESS CVF
+#   mrconso.eng.TS.values
+
+##  Derived from /nfsvol/nls/specialist/module/metawordindex/data.NLM.2012AB/0doit0
+
+. ../dfbuilder.profile
+
+date
+
+# create links to the necessary MR* files
+# echo 'Linking to Metathesaurus files... '
+# ln -s ../umls/MRCONSO.RRF
+# ln -s ../umls/MRSAT.RRF
+# ln -s ../umls/MRSTY.RRF
+# echo 'Finished creating links.'
+
+# collect frequency data about each of the fields
+/bin/rm -rf MRCONSO.*.values
+fields=( CUI LAT TS LUI STT SUI ISPREF AUI SAUI SCUI SDUI SAB TTY CODE STR SRL SUPPRESS CVF )
+for field in 1 2 3 4 5 6 12 13 16
+do
+   echo "creating MRCONSO.${fields[(($field - 1))]}.values"      
+   cut -f$field -d '|' MRCONSO.RRF | sort | uniq -c | sort -k1,1nr > MRCONSO.${fields[(($field - 1))]}.values &
+done
+
+date
+# create mrconso.eng.0
+echo "  Create mrconso.eng.0 (without suppression)"
+# /bin/rm -f mrconso.* 
+echo "creating and sorting mrconso.ALLENG"
+
+gawk -F'|'  '$2 == "POR" \
+          && ! (    $12 == "NEU" \
+          && ! ( $13 == "ACR" || $13 == "LATSY" || $13 == "PT" || $13 == "SY" ) ) \
+          { print $0 }' MRCONSO.RRF > mrconso.ALLENG
+
+# chmod -w mrconso.ALLENG
+echo "DONE"
+
+# ensure that there are no non-ascii lines in mrconso
+echo "excluding all non-ASCII lines from mrconso.ALLENG"
+non-ASCII mrconso.ALLENG
+echo "DONE"
+
+# nonASCII=`wc -l mrconso.ALLENG.nonASCII | cut -f1 -d ' '`
+# if [ $nonASCII -ne 0 ]
+# then
+#    echo "Error: mrconso.ALLENG contains non-ASCII characters." 
+#    echo "MetaMap does not support non-ASCII characters."
+#    echo "Aborting."
+#    exit 1
+# else
+#    echo "MRCONSO contains no non-ASCII characters."
+# fi
+
+# no reason to keep multiple copies of the same large file
+# /bin/rm -rf mrconso.ALLENG
+echo "moving mrconso.ALLENG to mrconso.eng.0"
+mv mrconso.ALLENG mrconso.eng.0
+
+# Checks that each CUI has one and only one preferred term
+echo "Checking PPF/Y CUIs"
+# /bin/rm -f mrconso.eng.ALL.CUI mrconso.eng.PPF_Y.CUI
+
+# creates a file containing all the unique CUIs
+echo "creating mrconso.eng.ALL.CUI"
+cut -d'|' -f1 mrconso.eng.0 | uniq > mrconso.eng.ALL.CUI &
+all_CUI=$!
+
+# create a file containing all CUIS with a preferred entry
+echo "creating mrconso.eng.PPF_Y.CUI"
+awk -F'|' '$3 == "P" && $5 == "PF" && $7 == "Y" {print $1}' mrconso.eng.0 > mrconso.eng.PPF_Y.CUI &
+PPF_Y_CUI=$!
+
+wait $all_CUI
+wait $PPF_Y_CUI
+
+echo "doing counts"
+
+# Future Review, how to handle this for custom (non UMLS) data sets
+# This may not be true for Custom data sets
+#
+# counts the number of CUIs in each file, and ensures they are equal
+# PPF_YCount=`wc -l mrconso.eng.PPF_Y.CUI | cut -f 1 -d ' ' `
+PPF_YCount=`wc -l mrconso.eng.PPF_Y.CUI | ${AWK} '{ print $1 }'`
+PPF_YCountUnique=`uniq mrconso.eng.PPF_Y.CUI | wc -l`
+# AllCUICount=`wc -l mrconso.eng.ALL.CUI | cut -f 1 -d ' '`
+AllCUICount=`wc -l mrconso.eng.ALL.CUI | ${AWK} '{ print $1 }'`
+QUIT=0
+
+# Future Review, how to handle this for custom (non UMLS) data sets
+# Should warning message be changed?
+if [ $PPF_YCount -eq $PPF_YCountUnique ]
+then
+   echo "PPF/Y CUIs are unique."
+else
+   echo "Warning: PPF/Y CUIs are NOT unique...this needs to be investigated"
+   QUIT=1
+fi
+
+# Future Review, how to handle this for custom (non UMLS) data sets
+# Should warning message be changed?
+if [ $PPF_YCount -eq $AllCUICount ]
+then
+   echo "PPF/Y CUIs cover all mrconso.eng.0"
+else
+   echo "Warning: PPF/Y CUIs DO NOT cover all mrconso.eng.0 ...this needs to be investigated"
+   QUIT=1
+fi
+
+if [ $QUIT -eq 1 ]; then
+exit 1
+fi
+
+# collect more frequepncy data 
+echo "OK, continuing."
+echo "creating mrconso.eng.TS.values"
+cut -f3 -d '|' mrconso.eng.0 | sort | uniq -c > mrconso.eng.TS.values
+# chmod -w mrconso.eng.TS.values
+
+echo "DONE"
+
+date
+
+echo ' '
+echo ' '
+echo 'Do preprocessing to suppress'
+echo '  numbers (0, 1, +1, 0.5, 50000)'
+echo '  single letters (a, A, b, B, ...)'
+echo '  bloopers (0->TPBF protein, and Periods->Menstruation)'
+echo '  unnecessary ambiguity (Other <n>, Protocols <n>, ...)'
+echo ' '
+echo '  Run 02Suppress.'
+echo ' '
