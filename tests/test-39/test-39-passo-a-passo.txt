@@ -3,6 +3,9 @@ TESTE INSTALACÃO METAMAP
 
 ## deu erro, não passou do script "./04FilterStrict "
 
+## MSG Commit Git
+Titulo: Execução teste 39 de instalação do Metamap
+Descricao: Execução do teste de instalação do Metamap DFB2021
 ------------------------------------------------------------------------
 ## resultados esperados executados pelo Will
 Eu executei o construtor de arquivo de dados em um Subconjunto de 2021AA MRCONSO consistindo apenas em registros portugueses (111610 registros); o seguinte mostra as contagens de supressão resultantes:
