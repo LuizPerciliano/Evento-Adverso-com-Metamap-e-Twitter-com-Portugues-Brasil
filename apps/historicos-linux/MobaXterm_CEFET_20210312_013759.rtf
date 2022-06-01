@@ -1,0 +1,195 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1046{\fonttbl{\f0\fmodern Consolas;}{\f1\fnil\fcharset129 Courier New;}}
+{\colortbl ;\red16\green158\blue98;\red20\green20\blue20;\red142\green142\blue142;\red56\green136\blue159;\red18\green124\blue155;\red170\green85\blue85;\red170\green64\blue64;\red85\green85\blue85;\red170\green51\blue170;}
+\viewkind4\uc1\pard\f0\fs20     \u9474?   \u8729? SSH compression :  \cf1 v\cf0                                              \u9474?\cf2\highlight3 
+\par \cf0\highlight0     \u9474?   \u8729? SSH-browser     :  \cf1 v\cf0                                              \u9474?\cf2\highlight3 
+\par \cf0\highlight0     \u9474?   \u8729? X11-forwarding  :  \cf1 v\cf0   (remote display is forwarded through SSH)  \u9474?\cf2\highlight3 
+\par \cf0\highlight0     \u9474?                                                                      \u9474?\cf2\highlight3 
+\par \cf0\highlight0     \u9474? \u8594? For more info, ctrl+click on \cf4\ul help\cf0\ulnone  or visit our \cf4\ul website\cf0\ulnone .            \u9474?\cf2\highlight3 
+\par \cf0\highlight0     \u9492?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9496?\cf2\highlight3 
+\par 
+\par \cf0\highlight0 Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.4.0-66-generic x86_64)\cf2\highlight3 
+\par 
+\par \cf0\highlight0  * Documentation:  https://help.ubuntu.com\cf2\highlight3 
+\par \cf0\highlight0  * Management:     https://landscape.canonical.com\cf2\highlight3 
+\par \cf0\highlight0  * Support:        https://ubuntu.com/advantage\cf2\highlight3 
+\par 
+\par \cf0\highlight0 1 update can be installed immediately.\cf2\highlight3 
+\par \cf0\highlight0 0 of these updates are security updates.\cf2\highlight3 
+\par \cf0\highlight0 To see these additional updates run: apt list --upgradable\cf2\highlight3 
+\par 
+\par \cf0\highlight0 *** /dev/sda2 will be checked for errors at next reboot ***\cf2\highlight3 
+\par \cf0\highlight0 *** /dev/sdb1 will be checked for errors at next reboot ***\cf2\highlight3 
+\par 
+\par \cf0\highlight0 Last login: Thu Mar 11 23:52:08 2021 from 179.218.10.91\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~$ cd Metamap2020/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020$ ls -la\cf2\highlight3 
+\par \cf0\highlight0 total 8078920\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  5 lperciliano lperciliano       4096 mar 11 01:41 \cf5 .\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  9 lperciliano lperciliano       4096 mar 12 00:00 \cf5 ..\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano      15589 mar 11 01:41 config-metamorphosys.prop\cf2\highlight3 
+\par \cf0\highlight0 drwx------  8 lperciliano lperciliano       4096 mar 11 01:33 \cf5 DUMLS\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x 11 lperciliano lperciliano       4096 mar  8 23:36 \cf5 lvg2016\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano  998349595 mar  8 13:49 \cf6 lvg2016.tgz\cf2\highlight3 
+\par \cf0\highlight0 drwx------ 13 lperciliano lperciliano       4096 mar 11 01:04 \cf5 public_mm\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano   76300423 mar  8 13:49 \cf6 public_mm_linux_dfb_2016.tar.bz2\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano 1728135330 mar  8 14:02 \cf6 public_mm_linux_main_2020.tar.bz2\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano 5469969166 mar  8 15:32 \cf6 umls-2020AB-full.zip\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020$ cp /DUMLS/2020AB/META/MRCONSO.RRF /public_mm/sourceData/UMLS_PORTUGUES/umls\cf2\highlight3 
+\par \cf0\highlight0 cp: cannot stat '/DUMLS/2020AB/META/MRCONSO.RRF': No such file or directory\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020$ clear\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020$ cd DUMLS/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS$ cd 2020AB/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS/2020AB$ cd META/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS/2020AB/META$ ls-la\cf2\highlight3 
+\par \cf0\highlight0 ls-la: command not found\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS/2020AB/META$ ls -la\cf2\highlight3 
+\par \cf0\highlight0 total 608924\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x 4 lperciliano lperciliano      4096 mar 11 01:55 \cf5 .\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x 4 lperciliano lperciliano      4096 mar 11 01:41 \cf5 ..\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano     85383 mar 11 01:54 AMBIGLUI.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano     85411 mar 11 01:54 AMBIGSUI.RRF\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x 2 lperciliano lperciliano      4096 mar 11 01:54 \cf5 CHANGE\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano     15589 mar 11 01:55 config.prop\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x 2 lperciliano lperciliano      4096 mar 11 01:55 \cf5 indexes\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano     23505 mar 11 01:55 mmsys.log\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano  14805965 mar 11 01:54 MRAUI.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano     22686 mar 11 01:55 MRCOLS.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano  37899608 mar 11 01:55 MRCONSO.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano 144873476 mar 11 01:54 MRCUI.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano   7895665 mar 11 01:55 MRDEF.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano     24717 mar 11 01:55 MRDOC.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano      3714 mar 11 01:55 MRFILES.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano   9792143 mar 11 01:55 MRHIER.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRHIST.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRMAP.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano       510 mar 11 01:55 MRRANK.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano 234766678 mar 11 01:55 MRREL.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano    148226 mar 11 01:55 MRSAB.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano 109401654 mar 11 01:55 MRSAT.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRSMAP.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano   9156638 mar 11 01:55 MRSTY.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano      2463 mar 11 01:55 MRXNS_ENG.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano      4502 mar 11 01:55 MRXNW_ENG.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_BAQ.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_CHI.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_CZE.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_DAN.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_DUT.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano      4562 mar 11 01:55 MRXW_ENG.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_EST.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_FIN.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_FRE.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_GER.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_GRE.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_HEB.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_HUN.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_ITA.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_JPN.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_KOR.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_LAV.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_NOR.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_POL.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano  54446273 mar 11 01:55 MRXW_POR.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_RUS.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_SCR.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_SPA.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_SWE.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano         0 mar 11 01:42 MRXW_TUR.RRF\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r-- 1 lperciliano lperciliano       348 mar 11 01:54 release.dat\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS/2020AB/META$ gedit MRCO\cf2\highlight3 
+\par \cf0\highlight0 MRCOLS.RRF   MRCONSO.RRF\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS/2020AB/META$ gedit MRCO\cf2\highlight3 
+\par \cf0\highlight0 MRCOLS.RRF   MRCONSO.RRF\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/DUMLS/2020AB/META$ cd /\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:/$ cd home/lperciliano/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~$ ls -la\cf2\highlight3 
+\par \cf0\highlight0 total 88628\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  9 lperciliano lperciliano     4096 mar 12 00:00 \cf5 .\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x 11 root        root            4096 mar  5 20:10 \cf5 ..\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano     4395 mar 11 04:14 .bash_history\cf2\highlight3 
+\par \cf0\highlight0 -rw-r--r--  1 lperciliano lperciliano      220 mar  5 20:10 .bash_logout\cf2\highlight3 
+\par \cf0\highlight0 -rw-r--r--  1 lperciliano lperciliano     3771 mar  5 20:10 .bashrc\cf2\highlight3 
+\par \cf0\highlight0 drwx------  6 lperciliano lperciliano     4096 mar  8 23:24 \cf5 .cache\cf2\highlight3 
+\par \cf0\highlight0 drwx------  7 lperciliano lperciliano     4096 mar  8 23:24 \cf5 .config\cf2\highlight3 
+\par \cf0\highlight0 -rw-r--r--  1 lperciliano lperciliano     8980 mar  5 20:10 examples.desktop\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  3 lperciliano lperciliano     4096 mar 11 01:30 \cf5 .java\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano 90668930 dez  9 10:22 \cf6 jre-linux.tar.gz\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  3 lperciliano lperciliano     4096 mar  5 20:13 \cf5 .local\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  5 lperciliano lperciliano     4096 mar 11 01:41 \cf5 Metamap2020\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  2 lperciliano lperciliano     4096 mar 11 01:30 \cf5 .mmsys\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  2 lperciliano lperciliano     4096 mar 11 01:30 \cf5 .oracle_jre_usage\cf2\highlight3 
+\par \cf0\highlight0 -rw-r--r--  1 lperciliano lperciliano      807 mar  5 20:10 .profile\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano     9027 mar  8 23:29 .viminfo\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano      357 mar 12 00:00 .Xauthority\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~$ pwd\cf2\highlight3 
+\par \cf0\highlight0 /home/lperciliano\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~$ cd Metamap2020/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020$ ls -la\cf2\highlight3 
+\par \cf0\highlight0 total 8078920\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  5 lperciliano lperciliano       4096 mar 11 01:41 \cf5 .\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  9 lperciliano lperciliano       4096 mar 12 00:00 \cf5 ..\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano      15589 mar 11 01:41 config-metamorphosys.prop\cf2\highlight3 
+\par \cf0\highlight0 drwx------  8 lperciliano lperciliano       4096 mar 11 01:33 \cf5 DUMLS\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x 11 lperciliano lperciliano       4096 mar  8 23:36 \cf5 lvg2016\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano  998349595 mar  8 13:49 \cf6 lvg2016.tgz\cf2\highlight3 
+\par \cf0\highlight0 drwx------ 13 lperciliano lperciliano       4096 mar 11 01:04 \cf5 public_mm\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano   76300423 mar  8 13:49 \cf6 public_mm_linux_dfb_2016.tar.bz2\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano 1728135330 mar  8 14:02 \cf6 public_mm_linux_main_2020.tar.bz2\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano 5469969166 mar  8 15:32 \cf6 umls-2020AB-full.zip\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020$ cd public_mm/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/public_mm$ ls -la\cf2\highlight3 
+\par \cf0\highlight0 total 1036\cf2\highlight3 
+\par \cf0\highlight0 drwx------ 13 lperciliano lperciliano   4096 mar 11 01:04 \cf5 .\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  5 lperciliano lperciliano   4096 mar 11 01:41 \cf5 ..\cf2\highlight3 
+\par \cf0\highlight0 drwx------  2 lperciliano lperciliano   4096 mar 11 01:05 \cf5 bin\cf2\highlight3 
+\par \cf0\highlight0 drwx------  3 lperciliano lperciliano   4096 fev 22  2016 \cf5 data\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano 383617 jun 28  2016 datafilebuilder.pdf\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  4 lperciliano lperciliano   4096 mai 12  2020 \cf5 DB\cf2\highlight3 
+\par \cf0\highlight0 -rw-rw-r--  1 lperciliano lperciliano   2763 mar 11 01:05 install.log\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  4 lperciliano lperciliano   4096 mai 11  2020 \cf5 lexicon\cf2\highlight3 
+\par \cf0\highlight0 drwx------  2 lperciliano lperciliano   4096 jun 30  2016 \cf5 lib\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  9 lperciliano lperciliano   4096 mai 12  2020 \cf5 MedPost-SKR\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano 127813 fev 22  2016 MM_2011_v2_ReleaseNotes.pdf\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano   2598 fev 22  2016 MMTermsConditions.txt\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano   8777 fev 22  2016 public_mm_additional_models.html\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano  75823 fev 22  2016 public_mm_additional_models.pdf\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano  14592 jun 30  2016 README_dfb.html\cf2\highlight3 
+\par \cf0\highlight0 -rw-r--r--  1 lperciliano lperciliano 147783 jun 30  2016 README_dfb.pdf\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano  18085 fev 22  2016 README.html\cf2\highlight3 
+\par \cf0\highlight0 -rw-------  1 lperciliano lperciliano 203026 fev 22  2016 README.pdf\cf2\highlight3 
+\par \cf0\highlight0 drwx------  2 lperciliano lperciliano   4096 fev 22  2016 \cf5 resources\cf2\highlight3 
+\par \cf0\highlight0 drwx------  4 lperciliano lperciliano   4096 fev 22  2016 \cf5 scripts\cf2\highlight3 
+\par \cf0\highlight0 drwx------  3 lperciliano lperciliano   4096 mar 11 02:01 \cf5 sourceData\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  2 lperciliano lperciliano   4096 mar 11 01:05 \cf5 TestSuite\cf2\highlight3 
+\par \cf0\highlight0 drwxr-xr-x  9 lperciliano lperciliano   4096 mar 11 01:05 \cf5 WSD_Server\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/public_mm$ cd sourceData/\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/public_mm/sourceData$ ls- la\cf2\highlight3 
+\par 
+\par \cf0\highlight0 Command 'ls-' not found, did you mean:\cf2\highlight3 
+\par 
+\par \cf0\highlight0   command 'lsd' from snap lsd (0.16.0)\cf2\highlight3 
+\par \cf0\highlight0   command 'lsw' from deb suckless-tools (44-1)\cf2\highlight3 
+\par \cf0\highlight0   command 'lsh' from deb lsh-client (2.1-12build3)\cf2\highlight3 
+\par \cf0\highlight0   command 'ls' from deb coreutils (8.30-3ubuntu2)\cf2\highlight3 
+\par \cf0\highlight0   command 'lsm' from deb lsm (1.0.4-1)\cf2\highlight3 
+\par \cf0\highlight0   command 'lsc' from deb livescript (1.6.0+dfsg-1)\cf2\highlight3 
+\par 
+\par \cf0\highlight0 See 'snap info <snapname>' for additional versions.\cf2\highlight3 
+\par 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/public_mm/sourceData$ ls -la\cf2\highlight3 
+\par \cf0\highlight0 total 12\cf2\highlight3 
+\par \cf0\highlight0 drwx------  3 lperciliano lperciliano 4096 mar 11 02:01 \cf5 .\cf2\highlight3 
+\par \cf0\highlight0 drwx------ 13 lperciliano lperciliano 4096 mar 11 01:04 \cf5 ..\cf2\highlight3 
+\par \cf0\highlight0 drwxrwxr-x  3 lperciliano lperciliano 4096 mar 11 02:02 \cf5 UMLS_PORTUGUES\cf2\highlight3 
+\par \cf0\highlight0 lperciliano@spica:~/Metamap2020/public_mm/sourceData$ cd\cf2\highlight3 
+\par \cf7\highlight0 Network error: Software caused connection abort\cf2\highlight3 
+\par 
+\par \cf8\highlight0\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\u9472?\cf2\highlight3 
+\par 
+\par \cf7\highlight0 Session stopped\cf2\highlight3 
+\par \cf0\highlight0     - Press \cf9 <return>\cf0  to exit tab\cf2\highlight3 
+\par \cf0\highlight0     - Press \cf9 R\cf0  to restart session\cf2\highlight3 
+\par \cf0\highlight0     - Press \cf9 S\cf0  to save terminal output to file\cf2\highlight3 
+\par \pard\cf0\highlight0\f1 
+\par }
+ 
