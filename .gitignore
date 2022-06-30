@@ -1,9 +1,14 @@
+# Pastas em geral
+bkp/
+bkp
+
+# Pastas de projeto
 docs-articles/Artigos_Traduzidos/*
 docs-articles/Docs-Artigos/*
 docs-articles/outros_docs/*
 apps/METAMAP_2020AB/*
 apps/Metamap-2021/*
-bkp/
+
 
 # Arquivos em geral
 .gitignore
@@ -83,6 +88,9 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+
+# PyCharm
+.idea
 
 # PyBuilder
 .pybuilder/
