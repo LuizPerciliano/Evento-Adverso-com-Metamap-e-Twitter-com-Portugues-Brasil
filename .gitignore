@@ -1,6 +1,6 @@
 # Pastas em geral
-bkp\
-.idea\
+bkp/
+.idea/
 
 # Pastas de projeto
 docs-articles/Artigos_Traduzidos/*
@@ -11,6 +11,7 @@ apps/Metamap-2021/*
 
 
 # Arquivos em geral
+.gitattributes
 .gitignore
 .mp3
 .mp4/
