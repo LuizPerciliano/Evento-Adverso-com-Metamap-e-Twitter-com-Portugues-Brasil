@@ -1,6 +1,6 @@
 # Pastas em geral
-bkp/
-bkp
+bkp\
+.idea\
 
 # Pastas de projeto
 docs-articles/Artigos_Traduzidos/*
