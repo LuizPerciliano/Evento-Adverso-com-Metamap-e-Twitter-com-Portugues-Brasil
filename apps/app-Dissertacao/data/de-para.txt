@@ -1,0 +1,106 @@
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;68;FALSO)
+
+
+
+J - documentos_6+ = AA - ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;8;FALSO)
+
+K - documentos_94+ = AB - ok 
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;9;FALSO)
+
+R - pdf_baixado = AC - ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;16;FALSO)
+
+=================================================================================================
+BN-BS 
+BN,BO,BP,BQ,BR,BS
+
+Ler-artigo-completo? = Ler-artigo-completo? ok = CRIADA na AX
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;64;FALSO)
+
+obs_introducao = obs_introducao ok = CRIADA na AU
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;65;FALSO)
+
+leitura_introducao = leitura_introducao ok = CRIADA na AY
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;66;FALSO)
+
+leitura_completa = AE = OK
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;67;FALSO)
+
+leitura_resumo  = AD = OK
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;68;FALSO)
+
+leitura_conclusao = leitura_conclusao ok = CRIADA na AZ
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;69;FALSO)
+====================================================================================================== 
+BU-CN
+
+BU
+conceituar_metamap = AF = ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;71;FALSO)
+
+BV
+conceituar_farmacovigilancia= AG = ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;72;FALSO)
+
+BW
+conceituar_Reacao_adversa_medicamentos_RAM= AH = ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;73;FALSO)
+
+BX
+conceituar_reconhecimento_entidades_nomeadas_REN= AI = ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;74;FALSO)
+
+BY
+conceituar_UMLS = AJ = ok
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;75;FALSO)
+
+BZ = AK = ok
+conceituar_metamap_data_file_builder_DFB
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;76;FALSO)
+
+CA = AL = ok
+conceituar_ferramenta_lexicos_LVG
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;77;FALSO)
+
+CB = AM = ok
+conceituar_MetamorphoSys
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;78;FALSO)
+
+CD = AO = ok
+conceituar_outros
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;80;FALSO)
+
+CE = AP = ok
+observacao
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;81;FALSO)
+
+CF
+status_resumo = status_resumo ok = CRIADA na AU
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;82;FALSO)
+
+CG
+data_leitura_resumo = AS = OK - problema nas datas
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;83;FALSO)
+
+CH
+data_leitura_completa = AT = OK 
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;84;FALSO)
+
+CI = AR = OK 
+sincronizado_mendely
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;85;FALSO)
+
+CJ - tem nada
+
+CK
+artigo_leitura - 0 em todos e não tem essa coluna na nova planilha
+
+CL
+artigo_referencia_dissertacao - 0 em todos e não tem essa coluna na nova planilha
+
+CM - tem nada
+
+CN
+citado_no_trabalho = citado_no_trabalho ok = CRIADA na AV
+=PROCV(C2;'[bases_filtradas_traduzida-26-09-2021.xlsx]base_traduzida'!$C$1:$CN$437;90;FALSO)
